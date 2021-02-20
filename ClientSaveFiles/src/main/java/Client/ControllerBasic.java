@@ -22,7 +22,7 @@ import java.util.List;
 import java.util.ResourceBundle;
 
 public class ControllerBasic implements Initializable {
-    Client network;
+    private Client client;
     ApplicationBasic app = new ApplicationBasic();
     @FXML
     public ListView clientList;
@@ -75,6 +75,11 @@ public class ControllerBasic implements Initializable {
             dialog.setScene(scene);
             dialog.setResizable(false);
             dialog.showAndWait();
+        }
+    }
+    public void setClient(Client network) {
+        if (client == null) {
+            client = network;
         }
     }
 }

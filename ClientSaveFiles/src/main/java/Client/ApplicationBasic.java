@@ -24,7 +24,13 @@ public class ApplicationBasic extends Application {
         windowClient.setScene(new Scene(parentRegistr));
         windowClient.setTitle("SaveFiles");
         windowClient.setResizable(false);
+    }
 
+    public static Stage getWindowClient() {
+        return windowClient;
+    }
 
+    public static Stage getReg() {
+        return reg;
     }
 }

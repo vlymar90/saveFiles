@@ -31,6 +31,6 @@
     <Button onAction="#registration" layoutX="299.0" layoutY="404.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="136.0" text="Регистрация" />
     <Label layoutX="4.0" layoutY="548.0" prefHeight="19.0" prefWidth="408.0" text="\@Company SaveFales" textFill="#3919ca" />
     <Button onAction="#instruction" layoutX="4.0" layoutY="14.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="87.0" text="инструкция" />
-    <Button onAction="#contactUs" layoutX="99.0" layoutY="14.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="87.0" text="о нас" />
+
 
 </AnchorPane>
