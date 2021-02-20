@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane fx:controller="Client.ControllerRegistration" maxHeight="-Infinity"
+            maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="572.0"
+            prefWidth="733.0" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1">
+
+      <Label alignment="BASELINE_CENTER" contentDisplay="CENTER"  layoutX="141.0" layoutY="44.0"
+             prefHeight="180.0" prefWidth="462.0" text="Добро пожаловать в SaveFiles!" textAlignment="CENTER"
+             textFill="#35288a" textOverrun="CLIP" wrapText="true">
+         <font>
+            <Font size="40.0" />
+         </font>
+      </Label>
+      <TextField fx:id="login" alignment="BASELINE_CENTER" layoutX="265.0" layoutY="199.0" prefHeight="26.0" prefWidth="207.0" promptText="введите логин" />
+      <PasswordField fx:id="password" alignment="BASELINE_CENTER" layoutX="265.0" layoutY="244.0" prefHeight="26.0" prefWidth="207.0" promptText="введите пароль" />
+      <Button  onAction="#authorization" layoutX="324.0" layoutY="296.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="87.0" text="войти" />
+    <Label alignment="BASELINE_CENTER" contentDisplay="TOP" layoutX="258.0" layoutY="337.0" prefHeight="67.0" prefWidth="214.0"
+           text="Если вы у нас впервые, нажмите кнопку регистрация" textAlignment="CENTER" textFill="#0c0cb5" wrapText="true">
+        <font>
+            <Font size="14.0" />
+        </font>
+    </Label>
+    <Button onAction="#registration" layoutX="299.0" layoutY="404.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="136.0" text="Регистрация" />
+    <Label layoutX="4.0" layoutY="548.0" prefHeight="19.0" prefWidth="408.0" text="\@Company SaveFales" textFill="#3919ca" />
+    <Button onAction="#instruction" layoutX="4.0" layoutY="14.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="87.0" text="инструкция" />
+    <Button onAction="#contactUs" layoutX="99.0" layoutY="14.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="87.0" text="о нас" />
+
+</AnchorPane>

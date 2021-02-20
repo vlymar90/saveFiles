@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.Button?>
+<AnchorPane fx:controller="Client.ControllerBasic" maxHeight="-Infinity"
+            maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity"
+            prefHeight="572.0" prefWidth="733.0" xmlns="http://javafx.com/javafx/15.0.1"
+            xmlns:fx="http://javafx.com/fxml/1">
+
+      <ListView fx:id="clientList" onMouseClicked="#windowSelect" layoutX="22.0" layoutY="88.0" prefHeight="460.0" prefWidth="330.0"/>
+      <ListView fx:id="serverList" layoutX="380.0" layoutY="88.0" prefHeight="460.0" prefWidth="330.0" />
+      <TextField fx:id="clientField" layoutX="22.0" layoutY="50.0" prefHeight="27.0" prefWidth="330.0" promptText="введите имя файла" />
+      <TextField fx:id="severField" layoutX="380.0" layoutY="51.0" prefHeight="25.0" prefWidth="330.0" promptText="введите имя файла" />
+
+</AnchorPane>
+
