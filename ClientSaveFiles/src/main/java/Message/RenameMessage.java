@@ -1,6 +1,6 @@
 package Message;
 
-public class RenameMessage implements Message  {
+public class RenameMessage implements Message{
     String lineOne;
 
     public RenameMessage(String lineOne) {

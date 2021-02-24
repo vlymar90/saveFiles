@@ -1,6 +1,6 @@
 package Message;
 
-public class RegMessage {
+public class RegMessage implements Message {
     private String login;
     private String password;
     private String directory;

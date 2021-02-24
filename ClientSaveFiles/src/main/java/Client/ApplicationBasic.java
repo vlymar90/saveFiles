@@ -5,32 +5,30 @@ import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.stage.Stage;
 
-import javafx.application.Application;
+
+
+import java.io.IOException;
 
 public class ApplicationBasic extends Application {
 
-    private static Stage windowClient;
-    private static Stage reg;
+    public static final String RegFXML = "registr.fxml";
+    public static final String ClientFXML = "client_window.fxml";
+    public static Stage reg;
+    public static Stage client;
+
     @Override
     public void start(Stage primaryStage) throws Exception {
-        reg = new Stage();
-        Parent parent = FXMLLoader.load(getClass().getResource("registr.fxml"));
+        Parent parent = FXMLLoader.load(getClass().getResource(RegFXML));
+        Parent parentClient = FXMLLoader.load(getClass().getResource(ClientFXML));
+        reg = primaryStage;
         reg.setScene(new Scene(parent));
         reg.setResizable(false);
         reg.show();
 
-        windowClient = primaryStage;
-        Parent parentRegistr = FXMLLoader.load(getClass().getResource("client_window.fxml"));
-        windowClient.setScene(new Scene(parentRegistr));
-        windowClient.setTitle("SaveFiles");
-        windowClient.setResizable(false);
-    }
+        client = new Stage();
+        client.setScene(new Scene(parentClient));
+        client.setResizable(false);
+        client.close();
 
-    public static Stage getWindowClient() {
-        return windowClient;
-    }
-
-    public static Stage getReg() {
-        return reg;
     }
 }

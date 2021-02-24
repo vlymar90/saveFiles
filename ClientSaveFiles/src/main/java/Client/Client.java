@@ -1,20 +1,23 @@
 package Client;
 
-
-import java.io.IOException;
-import java.net.Socket;
+import Message.*;
+import java.io.*;
+import java.net.Socket;;
 import java.util.List;
 import io.netty.handler.codec.serialization.ObjectDecoderInputStream;
 import io.netty.handler.codec.serialization.ObjectEncoderOutputStream;
 
+
 public class Client {
+
     private String name;
-    private String directory = "D:";
+    private String directory = "./";
     private static Client instance;
     private Socket socket;
     private ObjectEncoderOutputStream out;
     private ObjectDecoderInputStream in;
     private List<StringBuilder> list;
+    ApplicationBasic app = new ApplicationBasic();
 
     private Client() throws IOException {
         socket = new Socket("localhost", 9500);
@@ -23,6 +26,7 @@ public class Client {
     }
 
     public static Client getClient() throws IOException {
+
         if(instance == null) {
             instance = new Client();
             return instance;
@@ -41,22 +45,25 @@ public class Client {
 
    public void connect() {
 
-            new Thread(() -> {
+        new Thread(() -> {
                 try {
+
                    while (true) {
-                       String message = (String) in.readObject();
+                       Message message = (Message) in.readObject();
+                       if(message instanceof AuthMessage) {
+
+
+
+
+                       }
 
                    }
                 } catch (Exception e) {
                     e.printStackTrace();
                 }
-
-
-
             }).start();
+    }
 
-
-        }
 
 
     public String getName() {
@@ -74,27 +81,11 @@ public class Client {
     public void setName(String name) {
         this.name = name;
     }
+    public void write(Message message) throws IOException {
+        out.writeObject(message);
+    }
 
-//    public List getList(String directory) {
-//        list = new ArrayList();
-//        File dir = new File(directory);
-//        File[] listFile = dir.listFiles();
-//        StringBuilder builder = new StringBuilder();
-//        if (listFile != null) {
-//            for (File file : listFile) {
-//                if (file == null) {
-//                    continue;
-//                }
-//                builder.append(file.getName()).append(" | ");
-//                if (file.isFile()) {
-//                    builder.append("[FILE] | ").append(file.length()).append(" bytes.\n");
-//                    list.add(builder);
-//                } else {
-//                    builder.append("[DIR]\n");
-//                    list.add(builder);
-//                }
-//            }
-//        }
-//        return list;
-//    }
+    public ObjectDecoderInputStream getIn() {
+        return in;
+    }
 }

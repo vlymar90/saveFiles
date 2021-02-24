@@ -1,8 +1,10 @@
 package Message;
 
+
+
 public class AuthMessage implements Message {
-   private String nick;
-   private String password;
+    private String nick;
+    private String password;
 
     public AuthMessage(String nick, String password) {
         this.nick = nick;
