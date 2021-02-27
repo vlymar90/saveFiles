@@ -1,14 +1,22 @@
 package Message;
 
-public class RegMessage {
+import java.io.File;
+import java.nio.file.Path;
+
+public class RegMessage implements Message {
     private String login;
     private String password;
     private String directory;
+    private boolean isConnect;
 
     public RegMessage(String login, String password, String directory) {
         this.login = login;
         this.password = password;
         this.directory = directory;
+    }
+
+    public RegMessage(boolean isConnect) {
+        this.isConnect = isConnect;
     }
 
     public String getLogin() {
@@ -33,5 +41,9 @@ public class RegMessage {
 
     public void setDirectory(String directory) {
         this.directory = directory;
+    }
+
+    public boolean isConnect() {
+        return isConnect;
     }
 }

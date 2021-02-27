@@ -1,7 +1,5 @@
 package Client;
 
-
-import javafx.application.Platform;
 import javafx.event.ActionEvent;
 import javafx.fxml.Initializable;
 import javafx.collections.FXCollections;
@@ -25,15 +23,19 @@ import java.nio.file.Paths;
 import java.util.*;
 
 public class ControllerBasic implements Initializable {
-    private DialogController dialogController;
-    private File directory = new File("D:");
+    private static final String path = "D:";
+    private String serverPath;
+    private File directory = new File(path);
     private Stage dialog;
+    private File directoryServer;
+    private static final String resourceClient = "dialog.fxml";
+    private static final String resourceServer = "dialogserver.fxml";
 
 
     @FXML
     public ListView<String> clientList;
     @FXML
-    public ListView serverList;
+    public ListView<String> serverList;
     @FXML
     public TextField clientField;
     @FXML
@@ -41,60 +43,65 @@ public class ControllerBasic implements Initializable {
 
     @Override
     public void initialize(URL location, ResourceBundle resources) {
-        showFile(directory);
+        ControllerRegistration.control = this;
+        showFile(directory, clientList, clientField);
     }
 
 
-    public  void showFile(File file) {
+    public void showFile(File file, ListView<String> listView, TextField field) {
         List<String> list = new ArrayList<>();
         File[] files = file.listFiles();
-        for(File doc : files) {
+        for (File doc : files) {
             if (doc == null) {
-                    continue;
-                }
-            if (doc.isFile()) {
-                    list.add(new String(doc.getName() + " -> " + "[FILE]" + " -> " + file.length()));
-                } else {
-                    list.add(new String(doc.getName() + " -> " + "[DIR]"));
-                }
+                continue;
             }
+            if (doc.isFile()) {
+                list.add(new String(doc.getName() + " -> " + "[FILE]" + " -> " + file.length()));
+            } else {
+                list.add(new String(doc.getName() + " -> " + "[DIR]"));
+            }
+        }
 
         ObservableList<String> obs = FXCollections.observableList(list);
-        clientList.setItems(obs);
-        clientField.setText(file.getAbsolutePath());
-
+        listView.setItems(obs);
+        field.setText(file.getPath());
     }
 
     public void windowSelect(MouseEvent mouseEvent) throws IOException {
         if (mouseEvent.getButton() == MouseButton.SECONDARY) {
-            DialogController.basic = this;
-            dialog = new Stage();
-            dialog.setX(mouseEvent.getScreenX());
-            dialog.setY(mouseEvent.getScreenY());
-
-            VBox box = FXMLLoader.load(getClass().getResource("dialog.fxml"));
-            Scene scene = new Scene(box);
-            box.setSpacing(1);
-            box.setPadding(new Insets(0, 0, 0, 5));
-
-            dialog.initModality(Modality.WINDOW_MODAL);
-            dialog.setScene(scene);
-            dialog.setResizable(false);
-            dialog.showAndWait();
-
+            openDialog(resourceClient, mouseEvent);
         }
 
-        if(mouseEvent.getClickCount() == 2 &&mouseEvent.getButton() == MouseButton.PRIMARY) {
-            String listCell = clientList.getFocusModel().getFocusedItem();
-            String[] nameFile = listCell.split("->");
-            Path path = Paths.get(directory + "/" + nameFile[0].trim());
-            directory = path.toFile();
-            showFile(directory);
+        if (mouseEvent.getClickCount() == 2 && mouseEvent.getButton() == MouseButton.PRIMARY) {
+                directory = navigation(directory, clientList);
+                File[] file = directory.listFiles();
+                if (file == null) {
+                    directory = directory.getParentFile();
+                    showFile(directory, clientList, clientField);
+                }
+                showFile(directory, clientList, clientField);
+            }
         }
+
+
+    public void windowSelectServer(MouseEvent mouseEvent) throws IOException{
+        if (mouseEvent.getButton() == MouseButton.SECONDARY) {
+            openDialog(resourceServer, mouseEvent);
+        }
+        if (mouseEvent.getClickCount() == 2 && mouseEvent.getButton() == MouseButton.PRIMARY) {
+            directoryServer = navigation(directoryServer, serverList);
+            File[] file = directoryServer.listFiles();
+            if (file == null) {
+                directoryServer = directoryServer.getParentFile();
+                showFile(directoryServer, serverList, severField);
+            }
+            showFile(directoryServer, serverList, severField);
+        }
+
     }
 
     public void exit(ActionEvent actionEvent) {
-        Platform.exit();
+        System.exit(0);
     }
 
     public File getDirectory() {
@@ -109,8 +116,54 @@ public class ControllerBasic implements Initializable {
         return dialog;
     }
 
+    public void setDirectoryServer(File directoryServer) {
+        this.directoryServer = directoryServer;
+        serverPath = directoryServer.getPath();
+    }
+
     public void Back(ActionEvent actionEvent) {
-        directory = directory.getParentFile();
-        showFile(directory);
+        if (directory.getPath().equals(path)) {
+           return;
+        }
+        else if(directory != null) {
+            directory = directory.getParentFile();
+            showFile(directory, clientList, clientField);
+        }
+    }
+
+    public void backServer(ActionEvent actionEvent) {
+        if (directoryServer.getPath().equals(serverPath)) {
+            return;
+        }
+        else if(directoryServer != null) {
+            directoryServer = directoryServer.getParentFile();
+            showFile(directoryServer, serverList, severField);
+        }
+    }
+
+    private void openDialog(String resource, MouseEvent mouseEvent) throws IOException {
+        DialogController.basic = this;
+        dialog = new Stage();
+        dialog.setX(mouseEvent.getScreenX());
+        dialog.setY(mouseEvent.getScreenY());
+
+        VBox box = FXMLLoader.load(getClass().getResource(resource));
+        Scene scene = new Scene(box);
+        box.setSpacing(1);
+        box.setPadding(new Insets(0, 0, 0, 5));
+
+        dialog.initModality(Modality.WINDOW_MODAL);
+        dialog.setScene(scene);
+        dialog.setResizable(false);
+        dialog.showAndWait();
+    }
+
+    private File navigation(File dir, ListView<String> listView) {
+        String listCell = listView.getFocusModel().getFocusedItem();
+        String[] nameFile = listCell.split("->");
+        Path path = Paths.get(dir + "/" + nameFile[0].trim());
+        dir = path.toFile();
+        return dir;
     }
 }
+

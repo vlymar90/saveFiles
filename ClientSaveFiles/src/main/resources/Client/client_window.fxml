@@ -5,11 +5,12 @@
 
 <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="572.0" prefWidth="733.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Client.ControllerBasic">
 
-      <ListView fx:id="clientList" layoutX="22.0" layoutY="88.0"  onMouseClicked="#windowSelect" prefHeight="460.0" prefWidth="330.0" />
-      <ListView fx:id="serverList" layoutX="380.0" layoutY="88.0" prefHeight="460.0" prefWidth="330.0" />
+      <ListView fx:id="clientList" layoutX="22.0" layoutY="88.0" onMouseClicked="#windowSelect" prefHeight="460.0" prefWidth="330.0" />
+      <ListView fx:id="serverList" layoutX="380.0" layoutY="88.0" onMouseClicked="#windowSelectServer" prefHeight="460.0" prefWidth="330.0" />
       <TextField fx:id="clientField" layoutX="22.0" layoutY="50.0" prefHeight="27.0" prefWidth="330.0" promptText="введите имя файла" />
       <TextField fx:id="severField" layoutX="380.0" layoutY="51.0" prefHeight="25.0" prefWidth="330.0" promptText="введите имя файла" />
-   <Button onAction="#exit" layoutX="623.0" layoutY="14.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="88.0" text="Выйти" textAlignment="CENTER" textFill="#3a1bb7" />
-   <Button  onAction="#Back" layoutX="22.0" layoutY="15.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="88.0" text="Назад" textFill="#3517ca" />
+   <Button layoutX="323.0" layoutY="15.0" mnemonicParsing="false" onAction="#exit" prefHeight="26.0" prefWidth="88.0" text="Выйти" textAlignment="CENTER" textFill="#3a1bb7" />
+   <Button layoutX="22.0" layoutY="15.0" mnemonicParsing="false" onAction="#Back" prefHeight="26.0" prefWidth="88.0" text="Назад" textFill="#3517ca" />
+   <Button layoutX="623.0" layoutY="16.0" mnemonicParsing="false" onAction="#backServer" prefHeight="26.0" prefWidth="88.0" text="Назад" textFill="#461ccf" />
 
 </AnchorPane>

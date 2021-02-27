@@ -26,7 +26,7 @@ public class Server {
                         @Override
                         protected void initChannel(SocketChannel socketChannel) throws Exception {
                             socketChannel.pipeline().addLast(new ObjectEncoder(), new ObjectDecoder(ClassResolvers.cacheDisabled(null))
-                                    , new HandlerSerializable());
+                                    ,new HandlerSerializable());
                         }
                     });
             ChannelFuture future = b.bind(9500);

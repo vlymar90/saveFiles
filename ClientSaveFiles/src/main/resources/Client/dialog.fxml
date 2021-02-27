@@ -3,7 +3,10 @@
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
 
-<VBox maxHeight="-Infinity"   maxWidth="-Infinity"  minHeight="-Infinity" minWidth="-Infinity" prefHeight="116.0" prefWidth="151.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Client.DialogController">
+<VBox maxHeight="-Infinity" maxWidth="-Infinity"  minHeight="-Infinity"
+      minWidth="-Infinity" prefHeight="116.0" prefWidth="151.0"
+      xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1"
+      fx:controller="Client.DialogController">
 
       <Button onAction="#rename" mnemonicParsing="false"  prefHeight="35.0" prefWidth="141.0" text="rename" textFill="#240fe5" />
       <Button onAction="#send" mnemonicParsing="false" prefHeight="35.0" prefWidth="141.0" text="send" textAlignment="CENTER" textFill="#2c19da" />
