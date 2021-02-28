@@ -11,8 +11,6 @@ import javafx.scene.control.PasswordField;
 import javafx.scene.control.TextField;
 import javafx.stage.Modality;
 import javafx.stage.Stage;
-
-import java.io.File;
 import java.io.IOException;
 
 public class ControllerRegistration {
@@ -22,7 +20,6 @@ public class ControllerRegistration {
     public TextField login;
     public PasswordField password;
 
-    private File serverDir;
     public static ControllerBasic control;
     private Client client;
     public static Stage regStage;
@@ -31,18 +28,17 @@ public class ControllerRegistration {
         client = Client.getClient();
         client.write(new AuthMessage(login.getText(), password.getText()));
         Message message = (Message) client.getIn().readObject();
-        if(message instanceof AuthMessage) {
+        if (message instanceof AuthMessage) {
             AuthMessage auth = (AuthMessage) message;
-            if(auth.isConnect()) {
+            if (auth.isConnect()) {
+                client.connect();
                 client.setNick(login.getText());
                 ApplicationBasic.reg.close();
-                serverDir = auth.getDir();
-                control.setDirectoryServer(serverDir);
-                control.showFile(serverDir, control.serverList, control.severField);
+                control.setClient(client);
                 client.setBasic(control);
-                client.connect();
                 ApplicationBasic.client.show();
             }
+
             else {
                 getAlert("Авторизация", "Информация",
                         "Неверный логин или пароль, или аккаунта не существует");

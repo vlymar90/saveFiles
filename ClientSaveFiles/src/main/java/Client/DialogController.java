@@ -67,7 +67,7 @@ public class DialogController {
     public void delete(ActionEvent actionEvent) throws IOException {
         String cell = basic.clientList.getFocusModel().getFocusedItem();
         basic.setDirectory(basic.getDirectory().getParentFile());
-        basic.showFile(basic.getDirectory(), basic.clientList, basic.clientField);
+        basic.showFile(basic.getDirectory());
         basic.getDialog().close();
         Files.delete(getPath(cell));
     }

@@ -5,6 +5,7 @@ import java.io.*;
 import java.net.Socket;;
 import io.netty.handler.codec.serialization.ObjectDecoderInputStream;
 import io.netty.handler.codec.serialization.ObjectEncoderOutputStream;
+import javafx.application.Platform;
 
 
 public class Client {
@@ -47,13 +48,18 @@ public class Client {
 
           try {
               while (true) {
-                       Message message = (Message) in.readObject();
-                       if(message instanceof AuthMessage) {
-                       //Написать общение с сервером
+                  Message message = (Message) in.readObject();
+                  if (message instanceof ListServer) {
+                      ListServer listServer = (ListServer) message;
+                      Platform.runLater(() ->  basic.showList(listServer.getList(), basic.severField,
+                              listServer.getPath(), basic.serverList));
+
+                  }
 
 
 
-                       }
+
+
 
                    }
                 } catch (Exception e) {
