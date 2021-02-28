@@ -10,8 +10,7 @@ import javafx.scene.layout.VBox;
 import javafx.stage.Modality;
 import javafx.stage.Stage;
 
-import java.io.File;
-import java.io.IOException;
+import java.io.*;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
@@ -66,7 +65,7 @@ public class DialogController {
     }
 
     public void delete(ActionEvent actionEvent) throws IOException {
-        String cell =  basic.clientList.getFocusModel().getFocusedItem();
+        String cell = basic.clientList.getFocusModel().getFocusedItem();
         basic.setDirectory(basic.getDirectory().getParentFile());
         basic.showFile(basic.getDirectory(), basic.clientList, basic.clientField);
         basic.getDialog().close();
@@ -75,7 +74,7 @@ public class DialogController {
 
     private Path getPath(String cell) {
         String[] nameFile = cell.split("->");
-        Path path = Paths.get(basic.clientField.getText() +"/" + nameFile[0].trim());
+        Path path = Paths.get(basic.clientField.getText() + "/" + nameFile[0].trim());
         return path;
     }
 
@@ -85,6 +84,17 @@ public class DialogController {
     public void downloadServer(ActionEvent actionEvent) {
     }
 
-    public void deleteServer(ActionEvent actionEvent) {
+    public void deleteServer(ActionEvent actionEvent) throws IOException {
+
     }
 }
+
+
+//    byte[] buffer = new byte[1028];
+//    String path = basic.serverList.getFocusModel().getFocusedItem();
+//    String[] nameFile = path.split("->");
+//    File file = new File("ClientSaveFiles/Download/" + nameFile[0].trim());
+//        try (InputStream in = new FileInputStream(new File(basic.severField.getText()) + "/" + nameFile[0].trim());
+//                OutputStream out = new FileOutputStream(file)) {
+//                while (in.read(buffer) != -1) {
+//                out.write(buffer);

@@ -32,21 +32,24 @@ public class Client {
 
 
 
-    public void close() throws IOException {
-        in.close();
-        out.close();
-        socket.close();
+    public void close()  {
+        try {
+            in.close();
+            out.close();
+            socket.close();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
     }
 
    public void connect() {
+      Thread thread = new Thread(() -> {
 
-        new Thread(() -> {
-                try {
-
-                   while (true) {
+          try {
+              while (true) {
                        Message message = (Message) in.readObject();
                        if(message instanceof AuthMessage) {
-
+                       //Написать общение с сервером
 
 
 
@@ -56,7 +59,12 @@ public class Client {
                 } catch (Exception e) {
                     e.printStackTrace();
                 }
-            }).start();
+          finally {
+              close();
+          }
+      });
+      thread.setDaemon(true);
+      thread.start();
     }
 
 
