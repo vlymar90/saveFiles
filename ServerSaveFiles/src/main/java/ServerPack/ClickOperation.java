@@ -20,4 +20,9 @@ public class ClickOperation {
         }
         return list;
     }
+
+    public String getName(String name) {
+        String[] listName = name.split("->");
+        return "/" + listName[0].trim();
+    }
 }

@@ -51,17 +51,26 @@ public class Client {
                   Message message = (Message) in.readObject();
                   if (message instanceof ListServer) {
                       ListServer listServer = (ListServer) message;
-                      Platform.runLater(() ->  basic.showList(listServer.getList(), basic.severField,
+                      Platform.runLater(() -> basic.showList(listServer.getList(), basic.severField,
                               listServer.getPath(), basic.serverList));
-
                   }
 
-
-
-
-
-
-                   }
+                  if (message instanceof DownloadMessage) {
+                      DownloadMessage downloadMessage = (DownloadMessage) message;
+                      new Thread(() -> {
+                          byte[] buffer = new byte[1028];
+                          try (InputStream in = new FileInputStream(downloadMessage.getDownloadFile());
+                               OutputStream out = new FileOutputStream("ClientSaveFiles/Download/" +
+                                       downloadMessage.getDownloadFile().getName())) {
+                              while (in.read(buffer) != -1) {
+                                  out.write(buffer);
+                              }
+                          } catch (Exception e) {
+                              e.printStackTrace();
+                          }
+                      }).start();
+                  }
+              }
                 } catch (Exception e) {
                     e.printStackTrace();
                 }
@@ -82,8 +91,12 @@ public class Client {
     public void setNick(String nick) {
         this.nick = nick;
     }
-    public void write(Message message) throws IOException {
-        out.writeObject(message);
+    public void write(Message message) {
+        try {
+            out.writeObject(message);
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
     }
 
     public ObjectDecoderInputStream getIn() {

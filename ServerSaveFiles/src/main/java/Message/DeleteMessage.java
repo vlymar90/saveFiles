@@ -1,7 +1,7 @@
 package Message;
 
 public class DeleteMessage implements Message {
-    String lineOne;
+    private String lineOne;
 
     public DeleteMessage(String lineOne) {
         this.lineOne = lineOne;

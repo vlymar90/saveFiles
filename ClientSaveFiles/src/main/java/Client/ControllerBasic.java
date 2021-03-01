@@ -1,5 +1,6 @@
 package Client;
 
+import Message.BackMessage;
 import Message.ClickMessage;
 import javafx.event.ActionEvent;
 import javafx.fxml.Initializable;
@@ -31,7 +32,6 @@ public class ControllerBasic implements Initializable {
     private static final String resourceServer = "dialogserver.fxml";
     private Client client;
 
-
     @FXML
     public ListView<String> clientList;
     @FXML
@@ -46,7 +46,6 @@ public class ControllerBasic implements Initializable {
         ControllerRegistration.control = this;
         showFile(directory);
     }
-
 
     public void showFile(File file) {
         ArrayList<String> list = new ArrayList<>();
@@ -64,7 +63,7 @@ public class ControllerBasic implements Initializable {
         showList(list, clientField, file.getPath(), clientList);
     }
 
-    public void windowSelect(MouseEvent mouseEvent) throws IOException {
+    public void windowSelect(MouseEvent mouseEvent)  {
         if (mouseEvent.getButton() == MouseButton.SECONDARY) {
             openDialog(resourceClient, mouseEvent);
         }
@@ -83,8 +82,7 @@ public class ControllerBasic implements Initializable {
             }
         }
 
-
-    public void windowSelectServer(MouseEvent mouseEvent) throws IOException {
+        public void windowSelectServer(MouseEvent mouseEvent) throws IOException {
         if (mouseEvent.getButton() == MouseButton.SECONDARY) {
             openDialog(resourceServer, mouseEvent);
         }
@@ -97,6 +95,10 @@ public class ControllerBasic implements Initializable {
 
     public void exit(ActionEvent actionEvent) {
         System.exit(0);
+    }
+
+    public Client getClient() {
+        return client;
     }
 
     public void setClient(Client client) {
@@ -115,32 +117,37 @@ public class ControllerBasic implements Initializable {
         return dialog;
     }
 
-    public void Back(ActionEvent actionEvent) {
+    public void Back() {
         if(directory.getParentFile() != null) {
             directory = directory.getParentFile();
             showFile(directory);
         }
     }
 
-    public void backServer(ActionEvent actionEvent) {
-           //........
+    public void backServer(ActionEvent actionEvent)  {
+           client.write(new BackMessage(severField.getText()));
     }
 
-    private void openDialog(String resource, MouseEvent mouseEvent) throws IOException {
-        DialogController.basic = this;
-        dialog = new Stage();
-        dialog.setX(mouseEvent.getScreenX());
-        dialog.setY(mouseEvent.getScreenY());
+    private void openDialog(String resource, MouseEvent mouseEvent)  {
+        try {
+            DialogController.basic = this;
+            dialog = new Stage();
+            dialog.setX(mouseEvent.getScreenX());
+            dialog.setY(mouseEvent.getScreenY());
 
-        VBox box = FXMLLoader.load(getClass().getResource(resource));
-        Scene scene = new Scene(box);
-        box.setSpacing(1);
-        box.setPadding(new Insets(0, 0, 0, 5));
+            VBox box = FXMLLoader.load(getClass().getResource(resource));
+            Scene scene = new Scene(box);
+            box.setSpacing(1);
+            box.setPadding(new Insets(0, 0, 0, 5));
 
-        dialog.initModality(Modality.WINDOW_MODAL);
-        dialog.setScene(scene);
-        dialog.setResizable(false);
-        dialog.showAndWait();
+            dialog.initModality(Modality.WINDOW_MODAL);
+            dialog.setScene(scene);
+            dialog.setResizable(false);
+            dialog.showAndWait();
+        }
+        catch (IOException e) {
+            e.printStackTrace();
+        }
     }
 
     public void showList(ArrayList<String> list, TextField field, String path, ListView <String> listView) {
