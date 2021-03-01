@@ -21,9 +21,17 @@ import java.nio.file.Paths;
 
 public class DialogController {
     public static ControllerBasic basic;
+    public static DialogController instance;
 
+    public static DialogController controller() {
+        if(instance == null) {
+            instance = new DialogController();
+            return instance;
+        }
+        else return null;
+    }
 
-    public void rename(ActionEvent actionEvent) throws IOException {
+    public void rename(ActionEvent actionEvent) {
         String cell = basic.clientList.getFocusModel().getFocusedItem();
         Path oldPath = getPath(cell);
         basic.getDialog().close();
@@ -63,10 +71,11 @@ public class DialogController {
 
     public void delete(ActionEvent actionEvent) throws IOException {
         String cell = basic.clientList.getFocusModel().getFocusedItem();
+        basic.getDialog().close();
+        File file = new File(getPath(cell).toString());
+        file.delete();
         basic.setDirectory(basic.getDirectory().getParentFile());
         basic.showFile(basic.getDirectory());
-        basic.getDialog().close();
-        Files.delete(getPath(cell));
     }
 
     private Path getPath(String cell) {

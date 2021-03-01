@@ -12,6 +12,8 @@ import javafx.geometry.Insets;
 import javafx.scene.Scene;
 import javafx.scene.control.ListView;
 import javafx.scene.control.TextField;
+import javafx.scene.input.KeyCode;
+import javafx.scene.input.KeyEvent;
 import javafx.scene.input.MouseButton;
 import javafx.scene.input.MouseEvent;
 import javafx.scene.layout.VBox;
@@ -24,6 +26,8 @@ import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.util.*;
 
+import static javafx.scene.input.KeyCode.R;
+
 public class ControllerBasic implements Initializable {
     private static final String path = "D:";
     private File directory = new File(path);
@@ -31,6 +35,7 @@ public class ControllerBasic implements Initializable {
     private static final String resourceClient = "dialog.fxml";
     private static final String resourceServer = "dialogserver.fxml";
     private Client client;
+    private DialogController dialogController;
 
     @FXML
     public ListView<String> clientList;
@@ -44,6 +49,7 @@ public class ControllerBasic implements Initializable {
     @Override
     public void initialize(URL location, ResourceBundle resources) {
         ControllerRegistration.control = this;
+        dialogController = DialogController.controller();
         showFile(directory);
     }
 
@@ -63,7 +69,7 @@ public class ControllerBasic implements Initializable {
         showList(list, clientField, file.getPath(), clientList);
     }
 
-    public void windowSelect(MouseEvent mouseEvent)  {
+    public void windowSelect(MouseEvent mouseEvent) {
         if (mouseEvent.getButton() == MouseButton.SECONDARY) {
             openDialog(resourceClient, mouseEvent);
         }
@@ -72,24 +78,24 @@ public class ControllerBasic implements Initializable {
             String listCell = clientList.getFocusModel().getFocusedItem();
             String[] nameFile = listCell.split("->");
             Path path = Paths.get(directory + "/" + nameFile[0].trim());
-                directory = path.toFile();
-                File[] file = directory.listFiles();
-                if (file == null) {
-                    directory = directory.getParentFile();
-                    showFile(directory);
-                }
+            directory = path.toFile();
+            File[] file = directory.listFiles();
+            if (file == null) {
+                directory = directory.getParentFile();
                 showFile(directory);
             }
+            showFile(directory);
         }
+    }
 
-        public void windowSelectServer(MouseEvent mouseEvent) throws IOException {
+    public void windowSelectServer(MouseEvent mouseEvent) throws IOException {
         if (mouseEvent.getButton() == MouseButton.SECONDARY) {
             openDialog(resourceServer, mouseEvent);
         }
 
         if (mouseEvent.getClickCount() == 2 && mouseEvent.getButton() == MouseButton.PRIMARY) {
             String cell = serverList.getFocusModel().getFocusedItem();
-             client.write(new ClickMessage(cell));
+            client.write(new ClickMessage(cell));
         }
     }
 
@@ -99,6 +105,10 @@ public class ControllerBasic implements Initializable {
 
     public Client getClient() {
         return client;
+    }
+
+    public void setDialogController(DialogController dialogController) {
+        this.dialogController = dialogController;
     }
 
     public void setClient(Client client) {
@@ -118,17 +128,17 @@ public class ControllerBasic implements Initializable {
     }
 
     public void Back() {
-        if(directory.getParentFile() != null) {
+        if (directory.getParentFile() != null) {
             directory = directory.getParentFile();
             showFile(directory);
         }
     }
 
-    public void backServer(ActionEvent actionEvent)  {
-           client.write(new BackMessage(severField.getText()));
+    public void backServer(ActionEvent actionEvent) {
+        client.write(new BackMessage(severField.getText()));
     }
 
-    private void openDialog(String resource, MouseEvent mouseEvent)  {
+    private void openDialog(String resource, MouseEvent mouseEvent) {
         try {
             DialogController.basic = this;
             dialog = new Stage();
@@ -144,16 +154,42 @@ public class ControllerBasic implements Initializable {
             dialog.setScene(scene);
             dialog.setResizable(false);
             dialog.showAndWait();
-        }
-        catch (IOException e) {
+        } catch (IOException e) {
             e.printStackTrace();
         }
     }
 
-    public void showList(ArrayList<String> list, TextField field, String path, ListView <String> listView) {
+    public void showList(ArrayList<String> list, TextField field, String path, ListView<String> listView) {
         ObservableList<String> obs = FXCollections.observableList(list);
         listView.setItems(obs);
         field.setText(path);
     }
+
+    public void actionKeyClient(KeyEvent keyEvent) throws IOException {
+        if (keyEvent.getCode() == R) {
+            dialogController.rename(new ActionEvent());
+        }
+       else if (keyEvent.getCode() == KeyCode.S) {
+            dialogController.send(new ActionEvent());
+        }
+       else if (keyEvent.getCode() == KeyCode.D) {
+         dialogController.delete(new ActionEvent());
+        }
+    }
+
+    public void actionKeyServer(KeyEvent keyEvent) throws IOException {
+        if (keyEvent.getCode() == R) {
+            dialogController.renameServer(new ActionEvent());
+        }
+
+        if (keyEvent.getCode() == KeyCode.D) {
+            dialogController.downloadServer(new ActionEvent());
+        }
+
+        if (keyEvent.getCode() == KeyCode.DELETE) {
+            dialogController.deleteServer(new ActionEvent());
+        }
+    }
 }
+
 
