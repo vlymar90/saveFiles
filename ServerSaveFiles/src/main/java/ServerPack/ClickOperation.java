@@ -13,16 +13,11 @@ public class ClickOperation {
                 continue;
             }
             if (doc.isFile()) {
-                list.add(doc.getName() + " -> " + "[FILE]" + " -> " + file.length());
+                list.add(doc.getName() + " -> " + "[FILE]" + " -> " + doc.length() + " байт");
             } else {
-                list.add(doc.getName() + " -> " + "[DIR]");
+                list.add(doc.getName() + " -> " + "[DIR]" + " -> " + doc.length() + " байт");
             }
         }
         return list;
-    }
-
-    public String getName(String name) {
-        String[] listName = name.split("->");
-        return "/" + listName[0].trim();
     }
 }

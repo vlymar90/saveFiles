@@ -3,13 +3,23 @@ package Message;
 import java.io.File;
 
 public class SendMessage implements Message {
-    private File sendFile;
+    private String sendFile;
+    private byte[] buffer;
 
-    public SendMessage(File sendFile) {
+    public SendMessage(byte[] buffer, String sendFile) {
+        this.buffer = buffer;
         this.sendFile = sendFile;
     }
 
-    public File getSendFile() {
+    public SendMessage(String sendFile) {
+        this.sendFile = sendFile;
+    }
+
+    public String getSendFile() {
         return sendFile;
+    }
+
+    public byte[] getBuffer() {
+        return buffer;
     }
 }
