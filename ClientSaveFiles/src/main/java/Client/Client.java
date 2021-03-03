@@ -6,9 +6,11 @@ import java.net.Socket;;
 import io.netty.handler.codec.serialization.ObjectDecoderInputStream;
 import io.netty.handler.codec.serialization.ObjectEncoderOutputStream;
 import javafx.application.Platform;
-
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 
 public class Client {
+    private static final Logger LOGGER = LogManager.getLogger(Client.class);
     private ControllerBasic basic;
     private String nick;
     private static Client instance;
@@ -20,6 +22,7 @@ public class Client {
         socket = new Socket("localhost", 9500);
         out = new ObjectEncoderOutputStream(socket.getOutputStream());
         in = new ObjectDecoderInputStream(socket.getInputStream());
+        LOGGER.info("start stream socket, input and output");
     }
 
     public static Client getClient() throws IOException {
@@ -29,9 +32,6 @@ public class Client {
         }
         else return instance;
     }
-
-
-
 
     public void close()  {
         try {
@@ -44,6 +44,7 @@ public class Client {
     }
 
    public void connect() {
+        LOGGER.info("start connect");
       Thread thread = new Thread(() -> {
 
           try {
@@ -57,23 +58,16 @@ public class Client {
 
                   if (message instanceof DownloadMessage) {
                       DownloadMessage downloadMessage = (DownloadMessage) message;
-                      new Thread(() -> {
-                          byte[] buffer = new byte[1028];
-                          try (InputStream in = new FileInputStream(downloadMessage.getDownloadFile());
-                               OutputStream out = new FileOutputStream("ClientSaveFiles/Download/" +
-                                       downloadMessage.getDownloadFile().getName())) {
-                              while (in.read(buffer) != -1) {
-                                  out.write(buffer);
-                              }
-                          } catch (Exception e) {
-                              e.printStackTrace();
-                          }
-                      }).start();
+                      try (OutputStream out = new FileOutputStream("C:\\Users\\tatia\\OneDrive\\Рабочий стол\\java project\\SaveFiles\\ClientSaveFiles\\Download\\" +
+                              downloadMessage.getFileNameDownload(), true)) {
+                          out.write(downloadMessage.getBuffer());
+                          Platform.runLater(() -> basic.showFile(basic.getDirectory()));
+                      }
                   }
               }
-                } catch (Exception e) {
-                    e.printStackTrace();
-                }
+          } catch (Exception e) {
+              e.printStackTrace();
+          }
           finally {
               close();
           }
@@ -81,8 +75,6 @@ public class Client {
       thread.setDaemon(true);
       thread.start();
     }
-
-
 
     public String getNick() {
         return nick;
@@ -94,6 +86,7 @@ public class Client {
     public void write(Message message) {
         try {
             out.writeObject(message);
+            out.flush();
         } catch (IOException e) {
             e.printStackTrace();
         }
