@@ -1,17 +1,19 @@
 package Message;
 
 public class RenameMessage implements Message{
-    String lineOne;
+    private String oldPath;
+    private String newPath;
 
-    public RenameMessage(String lineOne) {
-        this.lineOne = lineOne;
+    public RenameMessage(String oldPath, String newPath) {
+        this.oldPath = oldPath;
+        this.newPath = newPath;
     }
 
-    public String getLineOne() {
-        return lineOne;
+    public String getOldPath() {
+        return oldPath;
     }
 
-    public void setLineOne(String lineOne) {
-        this.lineOne = lineOne;
+    public String getNewPath() {
+        return newPath;
     }
 }

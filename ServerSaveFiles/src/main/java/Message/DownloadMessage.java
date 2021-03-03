@@ -1,17 +1,25 @@
 package Message;
 
+import java.io.File;
+
 public class DownloadMessage implements Message {
-    String lineOne;
+    private byte[] buffer;
+    private String fileNameDownload;
 
-    public DownloadMessage(String lineOne) {
-        this.lineOne = lineOne;
+    public DownloadMessage(byte[] buffer, String fileNameDownload) {
+        this.buffer = buffer;
+        this.fileNameDownload = fileNameDownload;
     }
 
-    public String getLineOne() {
-        return lineOne;
+    public DownloadMessage(String fileNameDownload) {
+        this.fileNameDownload = fileNameDownload;
     }
 
-    public void setLineOne(String lineOne) {
-        this.lineOne = lineOne;
+    public byte[] getBuffer() {
+        return buffer;
+    }
+
+    public String getFileNameDownload() {
+        return fileNameDownload;
     }
 }

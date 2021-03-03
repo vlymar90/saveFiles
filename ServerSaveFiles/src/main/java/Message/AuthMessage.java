@@ -6,7 +6,6 @@ import java.nio.file.Path;
 public class AuthMessage implements Message {
    private String nick;
    private String password;
-   private File dir;
    private boolean isConnect;
 
     public AuthMessage(String nick, String password) {
@@ -14,8 +13,7 @@ public class AuthMessage implements Message {
         this.password = password;
     }
 
-    public AuthMessage(File dir, boolean isConnect) {
-        this.dir = dir;
+    public AuthMessage(boolean isConnect) {
         this.isConnect = isConnect;
     }
 
@@ -33,10 +31,6 @@ public class AuthMessage implements Message {
 
     public void setPassword(String password) {
         this.password = password;
-    }
-
-    public File getDir() {
-        return dir;
     }
 
     public boolean isConnect() {

@@ -11,39 +11,45 @@ import javafx.scene.control.PasswordField;
 import javafx.scene.control.TextField;
 import javafx.stage.Modality;
 import javafx.stage.Stage;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 
-import java.io.File;
 import java.io.IOException;
 
 public class ControllerRegistration {
+    public static final Logger LOGGER = LogManager.getLogger(ControllerRegistration.class);
     public TextField directoryServer;
     public PasswordField passwordReg;
     public TextField nickReg;
     public TextField login;
     public PasswordField password;
 
-    private File serverDir;
+    private ApplicationBasic app;
     public static ControllerBasic control;
     private Client client;
-    public static Stage regStage;
+    public Stage regStage;
 
     public void authorization(ActionEvent actionEvent) throws IOException, ClassNotFoundException {
+        if(app == null) {
+            app = new ApplicationBasic();
+        }
         client = Client.getClient();
         client.write(new AuthMessage(login.getText(), password.getText()));
         Message message = (Message) client.getIn().readObject();
-        if(message instanceof AuthMessage) {
+        if (message instanceof AuthMessage) {
             AuthMessage auth = (AuthMessage) message;
-            if(auth.isConnect()) {
+            if (auth.isConnect()) {
+                LOGGER.info("Авторизация прошла успешно");
+                client.connect();
                 client.setNick(login.getText());
                 ApplicationBasic.reg.close();
-                serverDir = auth.getDir();
-                control.setDirectoryServer(serverDir);
-                control.showFile(serverDir, control.serverList, control.severField);
+                control.setClient(client);
                 client.setBasic(control);
-                client.connect();
                 ApplicationBasic.client.show();
             }
+
             else {
+                LOGGER.info("Клиент не авторизовался");
                 getAlert("Авторизация", "Информация",
                         "Неверный логин или пароль, или аккаунта не существует");
                 login.clear();
@@ -55,6 +61,7 @@ public class ControllerRegistration {
 
         public void registration(ActionEvent actionEvent) {
         try {
+            app = new ApplicationBasic();
             regStage = new Stage();
             Parent parent = FXMLLoader.load(getClass().getResource("windowregistration.fxml"));
             regStage.setScene(new Scene(parent));
@@ -62,6 +69,7 @@ public class ControllerRegistration {
             ApplicationBasic.reg.close();
             regStage.initModality(Modality.WINDOW_MODAL);
             regStage.show();
+            LOGGER.info("Открыто окно регистрации");
             new Thread(() -> {
                 while (true) {
                     if (!regStage.isShowing()) {
@@ -86,11 +94,12 @@ public class ControllerRegistration {
             Message message = (Message) client.getIn().readObject();
             if (message instanceof RegMessage) {
                 RegMessage reg = (RegMessage) message;
-                if(reg.isConnect()) {
+                if (reg.isConnect()) {
+                    LOGGER.info("Регистрация прошла успешно");
                     regStage.close();
                     ApplicationBasic.reg.show();
-                }
-                else {
+                } else {
+                    LOGGER.info("Отклонение регистрации");
                     getAlert("Ошибка", "Результат регистрации",
                             "логин, пароль или директория уже используются");
                     nickReg.clear();
@@ -99,7 +108,9 @@ public class ControllerRegistration {
                     nickReg.requestFocus();
                 }
             }
+
         } catch (IOException | ClassNotFoundException e) {
+            LOGGER.info("Ошибка отправки сообщения или ошибка соединения");
             e.printStackTrace();
         }
     }
