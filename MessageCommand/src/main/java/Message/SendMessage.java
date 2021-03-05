@@ -9,10 +9,6 @@ public class SendMessage implements Message {
         this.sendFile = sendFile;
     }
 
-    public SendMessage(String sendFile) {
-        this.sendFile = sendFile;
-    }
-
     public String getSendFile() {
         return sendFile;
     }

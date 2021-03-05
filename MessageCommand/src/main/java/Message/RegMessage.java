@@ -28,18 +28,6 @@ public class RegMessage implements Message {
         return directory;
     }
 
-    public void setLogin(String login) {
-        this.login = login;
-    }
-
-    public void setPassword(String password) {
-        this.password = password;
-    }
-
-    public void setDirectory(String directory) {
-        this.directory = directory;
-    }
-
     public boolean isConnect() {
         return isConnect;
     }

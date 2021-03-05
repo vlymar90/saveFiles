@@ -19,11 +19,4 @@ public class ListServer implements Message {
         return path;
     }
 
-    public void setList(ArrayList<String> list) {
-        this.list = list;
-    }
-
-    public void setPath(String path) {
-        this.path = path;
-    }
 }

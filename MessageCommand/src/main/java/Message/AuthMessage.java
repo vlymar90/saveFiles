@@ -22,14 +22,6 @@ public class AuthMessage implements Message {
         return password;
     }
 
-    public void setNick(String nick) {
-        this.nick = nick;
-    }
-
-    public void setPassword(String password) {
-        this.password = password;
-    }
-
     public boolean isConnect() {
         return isConnect;
     }
