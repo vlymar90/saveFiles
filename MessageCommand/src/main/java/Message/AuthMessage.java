@@ -1,8 +1,5 @@
 package Message;
 
-import java.io.File;
-import java.nio.file.Path;
-
 public class AuthMessage implements Message {
    private String nick;
    private String password;
@@ -23,14 +20,6 @@ public class AuthMessage implements Message {
 
     public String getPassword() {
         return password;
-    }
-
-    public void setNick(String nick) {
-        this.nick = nick;
-    }
-
-    public void setPassword(String password) {
-        this.password = password;
     }
 
     public boolean isConnect() {

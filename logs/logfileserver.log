@@ -2,3 +2,5 @@ INFO  2021-03-03 15:03:37 [nioEventLoopGroup-3-1] ServerPack.HandlerSerializable
 INFO  2021-03-03 15:20:57 [main] ServerPack.ServerStart (ServerStart.java:9) - Server start
 INFO  2021-03-03 15:21:28 [nioEventLoopGroup-3-1] ServerPack.HandlerSerializable (HandlerSerializable.java:36) - Client is authorisation
 INFO  2021-03-03 15:21:54 [nioEventLoopGroup-3-1] ServerPack.HandlerSerializable (HandlerSerializable.java:131) - Удаленный хост принудительно разорвал существующее подключение
+INFO  2021-03-05 14:10:58 [main] ServerPack.ServerStart (ServerStart.java:9) - Server start
+INFO  2021-03-05 14:11:38 [nioEventLoopGroup-3-1] ServerPack.HandlerSerializable (HandlerSerializable.java:36) - Client is authorisation

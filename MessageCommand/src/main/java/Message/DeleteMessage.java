@@ -11,7 +11,4 @@ public class DeleteMessage implements Message {
         return lineOne;
     }
 
-    public void setLineOne(String lineOne) {
-        this.lineOne = lineOne;
-    }
 }
