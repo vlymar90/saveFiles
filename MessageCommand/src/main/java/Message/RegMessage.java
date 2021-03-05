@@ -1,8 +1,5 @@
 package Message;
 
-import java.io.File;
-import java.nio.file.Path;
-
 public class RegMessage implements Message {
     private String login;
     private String password;
@@ -13,7 +10,6 @@ public class RegMessage implements Message {
         this.login = login;
         this.password = password;
         this.directory = directory;
-
     }
 
     public RegMessage(boolean isConnect) {
@@ -22,10 +18,6 @@ public class RegMessage implements Message {
 
     public String getLogin() {
         return login;
-    }
-
-    public boolean isConnect() {
-        return isConnect;
     }
 
     public String getPassword() {
@@ -48,4 +40,7 @@ public class RegMessage implements Message {
         this.directory = directory;
     }
 
+    public boolean isConnect() {
+        return isConnect;
+    }
 }

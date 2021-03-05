@@ -1,7 +1,5 @@
 package Message;
 
-import java.io.File;
-
 public class DownloadMessage implements Message {
     private byte[] buffer;
     private String fileNameDownload;

@@ -11,6 +11,7 @@
     <modules>
         <module>ClientSaveFiles</module>
         <module>ServerSaveFiles</module>
+        <module>MessageCommand</module>
 
     </modules>
 

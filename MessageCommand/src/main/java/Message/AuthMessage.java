@@ -1,8 +1,5 @@
 package Message;
 
-import java.io.File;
-import java.nio.file.Path;
-
 public class AuthMessage implements Message {
    private String nick;
    private String password;

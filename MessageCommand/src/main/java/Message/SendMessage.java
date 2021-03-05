@@ -1,7 +1,5 @@
 package Message;
 
-import java.io.File;
-
 public class SendMessage implements Message {
     private String sendFile;
     private byte[] buffer;
