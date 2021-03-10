@@ -27,7 +27,7 @@ public class ControllerRegistration {
     private ApplicationBasic app;
     public static ControllerBasic control;
     private Client client;
-    public Stage regStage;
+    public static Stage regStage;
 
     public void authorization(ActionEvent actionEvent) throws IOException, ClassNotFoundException {
         if(app == null) {
@@ -117,6 +117,8 @@ public class ControllerRegistration {
 
     private void getAlert(String tittle, String header, String content) {
         Alert alert = new Alert(Alert.AlertType.CONFIRMATION);
+        alert.setX(ApplicationBasic.reg.getX() + 265);
+        alert.setY(ApplicationBasic.reg.getY() + 268);
         alert.setTitle(tittle);
         alert.setHeaderText(header);
         alert.setContentText(content);

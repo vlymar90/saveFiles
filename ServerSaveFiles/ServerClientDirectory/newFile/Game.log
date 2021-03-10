@@ -1,0 +1,158 @@
+BackupNameAttachment=" Build(0) 25 Oct 20 (08 36 16)"  -- used by backup system
+Log Started at 10/25/20 08:36:16
+Running 32 bit version
+Executable: D:\Crysis 2\bin32\Crysis2.exe
+FileVersion: 1.9.0.0
+ProductVersion: 1.9.0.0
+Using STLport C++ Standard Library implementation
+Added MOD directory <engine> to CryPak
+Executable Command Line: "D:\Crysis 2\bin32\Crysis2.exe" 
+
+Total number of logical processors: 8
+Number of available logical processors: 8
+Total number of system cores: 4
+Number of cores available to process: 4
+
+Processor 0:
+  CPU: AMD AMD Ryzen 5 3500U with Radeon Vega Mobile Gfx  
+  Family: 15, Model: 8, Stepping: 1
+  FPU: On-Chip
+  CPU Speed (estimated): 2096.0 MHz
+  MMX: not present
+  SSE: present
+  3DNow!: not present
+  Serial number not present or disabled
+
+Processor 1:
+  CPU: AMD AMD Ryzen 5 3500U with Radeon Vega Mobile Gfx  
+  Family: 15, Model: 8, Stepping: 1
+  FPU: On-Chip
+  CPU Speed (estimated): 2096.0 MHz
+  MMX: not present
+  SSE: present
+  3DNow!: not present
+  Serial number not present or disabled
+
+Processor 2:
+  CPU: AMD AMD Ryzen 5 3500U with Radeon Vega Mobile Gfx  
+  Family: 15, Model: 8, Stepping: 1
+  FPU: On-Chip
+  CPU Speed (estimated): 2096.0 MHz
+  MMX: not present
+  SSE: present
+  3DNow!: not present
+  Serial number not present or disabled
+
+Processor 3:
+  CPU: AMD AMD Ryzen 5 3500U with Radeon Vega Mobile Gfx  
+  Family: 15, Model: 8, Stepping: 1
+  FPU: On-Chip
+  CPU Speed (estimated): 2096.0 MHz
+  MMX: not present
+  SSE: present
+  3DNow!: not present
+  Serial number not present or disabled
+
+[Warning] Unknown command: sys_game_folder
+[Warning] Unknown command: sys_dll_game
+[Warning] Unknown command: sys_user_folder
+[Warning] Unknown command: r_ShaderCompilerServer
+[Warning] Unknown command: log_IncludeTime
+[Warning] Unknown command: log_verbosity
+[Warning] Unknown command: sys_PakLogInvalidFileAccess
+[Warning] Unknown command: sys_float_exceptions
+[Error] Error: ConsoleVariableGroup 'sys_spec_objectdetail' key 'e_DecalsForceDeferred' is not missing in default
+[Error] Error: ConsoleVariableGroup 'sys_spec_objectdetail' key 'r_DrawNearZRange' is not missing in default
+Windows 64 bit (build 6.2.9200)
+System language: Russian
+Windows Directory: "C:\WINDOWS"
+Prerequisites...
+* Installation of KB940105 hotfix required: no! (either not needed or already installed)
+Local time is 08:36:18 10/25/20, system running for 10620 minutes
+7104MB physical memory installed, 946MB available, 4095MB virtual memory installed, 86 percent of memory in use
+PageFile usage: 78MB, Working Set: 68MB, Peak PageFile usage: 79MB,
+Current display mode is 1920x1080x32, (Unknown graphics card)
+IBM enhanced (101/102-key) keyboard and 3+ button mouse installed
+--------------------------------------------------------------------------------
+[Warning] Unknown command: sys_game_folder
+[Warning] Unknown command: sys_dll_game
+[Warning] Unknown command: sys_user_folder
+[Warning] Unknown command: r_ShaderCompilerServer
+[Warning] Unknown command: log_IncludeTime
+[Warning] Unknown command: log_verbosity
+[Warning] Unknown command: sys_PakLogInvalidFileAccess
+[Warning] Unknown command: sys_float_exceptions
+Stream Engine Initialization
+GameName: Crysis 2 (TM)
+BuildTime: Mar 22 2012 10:46:52
+Font initialization
+Physics initialization
+Sound initialization
+<Sound> Initializing AudioDevice now!
+<Sound> Initialize FMOD with dynamic memory callbacks
+<Sound> Starting to initialize Windows Audio Session API output! 
+<Sound> Drivers found: 1
+<Sound> Available drivers:
+	1.	Speakers (Realtek(R) Audio)
+<Sound> Using speaker mode: FMOD_SPEAKERMODE_STEREO
+<Sound> Initializing FMOD-EX now!
+<Sound> Initialized FMOD-EX
+<Sound> Available record drivers: 0 Microphone (Realtek(R) Audio) !
+<Sound> Record config is set to autodetect using record driver 0
+<Sound> Using FMOD version: 00043307 and internal 00043307!
+<Sound> Initializing SoundSystem now!
+Renderer initialization
+ used GeomInstancingThreshold is 2
+Network initialization
+[net] using iocp socket io management
+network hostname: LAPTOP-FNSOT2N0
+  ip:192.168.1.7
+[Network Version]: RELEASE PURE CLIENT
+MovieSystem initialization
+Console initialization
+Time initialization
+Input initialization
+AI initialization
+Initializing Animation System
+Initializing 3D Engine
+Script System Initialization
+Entity system initialization
+Initializing AI System
+[Error] [Tweaks] Cannot locate active profile table
+[GameProfiles]: Successfully activated profile 'default' for user 'tatia'
+username tatia signedIn 1 userIndex -1
+ActivateProfile profileName default
+[Game Version]: RELEASE PURE CLIENT
+[Lobby] Creating socket on port 64100
+[Lobby] Created socket on port 64100
+[Error] <Flash> Error: Can't find method '_level0._root.Root.SubScreenCurrent.startCountdown' to invoke. [libs/ui/menus_startmenu.gfx]
+[Error] <Flash> Error: GetVariable failed: can't resolve the path "_root.Root.SubScreenCurrent.resetState" [libs/ui/menus_startmenu.gfx]
+[Error] <Flash> Error: Can't find method '_level0._root.Root.SubScreenCurrent.resetState' to invoke. [libs/ui/menus_startmenu.gfx]
+[Error] Runaway thread
+[Error] Runaway thread
+[Error] Runaway thread
+[Error] Runaway thread
+[Error] Runaway thread
+[Error] Runaway thread
+System Shutdown
+[Error] Runaway thread
+[Error] Runaway thread
+[Error] Runaway thread
+DXInput Shutdown
+Closing PAK file: gamecrysis2\animations.pak
+Closing PAK file: gamecrysis2\gamedata.pak
+Closing PAK file: gamecrysis2\music.pak
+Closing PAK file: gamecrysis2\objects.pak
+Closing PAK file: gamecrysis2\objectsls.pak
+Closing PAK file: gamecrysis2\scripts.pak
+Closing PAK file: gamecrysis2\sounds.pak
+Closing PAK file: gamecrysis2\textures.pak
+Closing PAK file: gamecrysis2\videos.pak
+Closing PAK file: engine\engine.pak
+Closing PAK file: engine\shadercache.pak
+Closing PAK file: engine\shaders.pak
+Closing PAK file: engine\shadersbin.pak
+Closing PAK file: gamecrysis2\localized\russian.pak
+Closing PAK file: patch\patch1.pak
+Closing PAK file: patch\dx11.pak
+Closing PAK file: patch\textureshighres.pak
