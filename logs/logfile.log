@@ -30,3 +30,667 @@ INFO  2021-03-05 22:56:41 [JavaFX Application Thread] Client.Client (Client.java
 INFO  2021-03-05 22:56:42 [JavaFX Application Thread] Client.ControllerRegistration (ControllerRegistration.java:42) - Авторизация прошла успешно
 INFO  2021-03-05 22:56:42 [JavaFX Application Thread] Client.Client (Client.java:47) - start connect
 INFO  2021-03-05 22:56:58 [JavaFX Application Thread] Client.ControllerBasic (ControllerBasic.java:104) - exit program!
+INFO  2021-03-06 22:44:23 [JavaFX Application Thread] Client.ApplicationBasic (ApplicationBasic.java:29) - запуск приложения
+INFO  2021-03-06 22:44:39 [JavaFX Application Thread] Client.Client (Client.java:25) - start stream socket, input and output
+INFO  2021-03-06 22:44:39 [JavaFX Application Thread] Client.ControllerRegistration (ControllerRegistration.java:42) - Авторизация прошла успешно
+INFO  2021-03-06 22:44:39 [JavaFX Application Thread] Client.Client (Client.java:47) - start connect
+INFO  2021-03-06 22:46:38 [JavaFX Application Thread] Client.ApplicationBasic (ApplicationBasic.java:29) - запуск приложения
+INFO  2021-03-06 22:46:48 [JavaFX Application Thread] Client.Client (Client.java:25) - start stream socket, input and output
+INFO  2021-03-06 22:46:48 [JavaFX Application Thread] Client.ControllerRegistration (ControllerRegistration.java:42) - Авторизация прошла успешно
+INFO  2021-03-06 22:46:48 [JavaFX Application Thread] Client.Client (Client.java:47) - start connect
+INFO  2021-03-06 22:48:30 [JavaFX Application Thread] Client.ApplicationBasic (ApplicationBasic.java:29) - запуск приложения
+INFO  2021-03-06 22:48:43 [JavaFX Application Thread] Client.Client (Client.java:25) - start stream socket, input and output
+INFO  2021-03-06 22:48:43 [JavaFX Application Thread] Client.ControllerRegistration (ControllerRegistration.java:42) - Авторизация прошла успешно
+INFO  2021-03-06 22:48:43 [JavaFX Application Thread] Client.Client (Client.java:47) - start connect
+INFO  2021-03-06 22:49:58 [JavaFX Application Thread] Client.ApplicationBasic (ApplicationBasic.java:29) - запуск приложения
+INFO  2021-03-06 22:50:09 [JavaFX Application Thread] Client.Client (Client.java:25) - start stream socket, input and output
+INFO  2021-03-06 22:50:09 [JavaFX Application Thread] Client.ControllerRegistration (ControllerRegistration.java:42) - Авторизация прошла успешно
+INFO  2021-03-06 22:50:09 [JavaFX Application Thread] Client.Client (Client.java:47) - start connect
+INFO  2021-03-06 22:51:09 [JavaFX Application Thread] Client.ApplicationBasic (ApplicationBasic.java:29) - запуск приложения
+INFO  2021-03-06 22:51:18 [JavaFX Application Thread] Client.Client (Client.java:25) - start stream socket, input and output
+INFO  2021-03-06 22:51:18 [JavaFX Application Thread] Client.ControllerRegistration (ControllerRegistration.java:42) - Авторизация прошла успешно
+INFO  2021-03-06 22:51:18 [JavaFX Application Thread] Client.Client (Client.java:47) - start connect
+INFO  2021-03-06 22:53:58 [JavaFX Application Thread] Client.ApplicationBasic (ApplicationBasic.java:29) - запуск приложения
+INFO  2021-03-06 22:54:08 [JavaFX Application Thread] Client.Client (Client.java:25) - start stream socket, input and output
+INFO  2021-03-06 22:54:08 [JavaFX Application Thread] Client.ControllerRegistration (ControllerRegistration.java:42) - Авторизация прошла успешно
+INFO  2021-03-06 22:54:08 [JavaFX Application Thread] Client.Client (Client.java:47) - start connect
+INFO  2021-03-06 22:56:04 [JavaFX Application Thread] Client.ApplicationBasic (ApplicationBasic.java:29) - запуск приложения
+INFO  2021-03-06 22:56:14 [JavaFX Application Thread] Client.Client (Client.java:25) - start stream socket, input and output
+INFO  2021-03-06 22:56:14 [JavaFX Application Thread] Client.ControllerRegistration (ControllerRegistration.java:42) - Авторизация прошла успешно
+INFO  2021-03-06 22:56:14 [JavaFX Application Thread] Client.Client (Client.java:47) - start connect
+INFO  2021-03-06 22:56:54 [JavaFX Application Thread] Client.ControllerBasic (ControllerBasic.java:167) - file D:\System Volume Information is rename!
+INFO  2021-03-06 23:00:30 [JavaFX Application Thread] Client.ApplicationBasic (ApplicationBasic.java:29) - запуск приложения
+INFO  2021-03-06 23:00:40 [JavaFX Application Thread] Client.Client (Client.java:25) - start stream socket, input and output
+INFO  2021-03-06 23:00:40 [JavaFX Application Thread] Client.ControllerRegistration (ControllerRegistration.java:42) - Авторизация прошла успешно
+INFO  2021-03-06 23:00:40 [JavaFX Application Thread] Client.Client (Client.java:47) - start connect
+INFO  2021-03-06 23:01:01 [JavaFX Application Thread] Client.ControllerBasic (ControllerBasic.java:104) - exit program!
+INFO  2021-03-06 23:01:19 [JavaFX Application Thread] Client.ApplicationBasic (ApplicationBasic.java:29) - запуск приложения
+INFO  2021-03-06 23:01:26 [JavaFX Application Thread] Client.Client (Client.java:25) - start stream socket, input and output
+INFO  2021-03-06 23:01:27 [JavaFX Application Thread] Client.ControllerRegistration (ControllerRegistration.java:42) - Авторизация прошла успешно
+INFO  2021-03-06 23:01:27 [JavaFX Application Thread] Client.Client (Client.java:47) - start connect
+INFO  2021-03-06 23:01:32 [JavaFX Application Thread] Client.ControllerBasic (ControllerBasic.java:104) - exit program!
+INFO  2021-03-06 23:01:53 [JavaFX Application Thread] Client.ApplicationBasic (ApplicationBasic.java:29) - запуск приложения
+INFO  2021-03-06 23:02:01 [JavaFX Application Thread] Client.Client (Client.java:25) - start stream socket, input and output
+INFO  2021-03-06 23:02:01 [JavaFX Application Thread] Client.ControllerRegistration (ControllerRegistration.java:42) - Авторизация прошла успешно
+INFO  2021-03-06 23:02:01 [JavaFX Application Thread] Client.Client (Client.java:47) - start connect
+INFO  2021-03-06 23:02:09 [JavaFX Application Thread] Client.ControllerBasic (ControllerBasic.java:104) - exit program!
+INFO  2021-03-06 23:02:32 [JavaFX Application Thread] Client.ApplicationBasic (ApplicationBasic.java:29) - запуск приложения
+INFO  2021-03-06 23:02:40 [JavaFX Application Thread] Client.Client (Client.java:25) - start stream socket, input and output
+INFO  2021-03-06 23:02:40 [JavaFX Application Thread] Client.ControllerRegistration (ControllerRegistration.java:42) - Авторизация прошла успешно
+INFO  2021-03-06 23:02:40 [JavaFX Application Thread] Client.Client (Client.java:47) - start connect
+INFO  2021-03-06 23:02:53 [JavaFX Application Thread] Client.ControllerBasic (ControllerBasic.java:104) - exit program!
+INFO  2021-03-06 23:23:41 [JavaFX Application Thread] Client.ApplicationBasic (ApplicationBasic.java:29) - запуск приложения
+INFO  2021-03-06 23:23:51 [JavaFX Application Thread] Client.Client (Client.java:25) - start stream socket, input and output
+INFO  2021-03-06 23:23:51 [JavaFX Application Thread] Client.ControllerRegistration (ControllerRegistration.java:42) - Авторизация прошла успешно
+INFO  2021-03-06 23:23:51 [JavaFX Application Thread] Client.Client (Client.java:47) - start connect
+INFO  2021-03-06 23:24:16 [JavaFX Application Thread] Client.ControllerBasic (ControllerBasic.java:105) - exit program!
+INFO  2021-03-06 23:34:01 [JavaFX Application Thread] Client.ApplicationBasic (ApplicationBasic.java:29) - запуск приложения
+INFO  2021-03-06 23:34:12 [JavaFX Application Thread] Client.Client (Client.java:25) - start stream socket, input and output
+INFO  2021-03-06 23:34:24 [JavaFX Application Thread] Client.ControllerRegistration (ControllerRegistration.java:42) - Авторизация прошла успешно
+INFO  2021-03-06 23:34:24 [JavaFX Application Thread] Client.Client (Client.java:47) - start connect
+INFO  2021-03-06 23:35:53 [JavaFX Application Thread] Client.ApplicationBasic (ApplicationBasic.java:29) - запуск приложения
+INFO  2021-03-06 23:36:06 [JavaFX Application Thread] Client.Client (Client.java:25) - start stream socket, input and output
+INFO  2021-03-06 23:36:13 [JavaFX Application Thread] Client.ControllerRegistration (ControllerRegistration.java:42) - Авторизация прошла успешно
+INFO  2021-03-06 23:36:13 [JavaFX Application Thread] Client.Client (Client.java:47) - start connect
+INFO  2021-03-06 23:38:15 [JavaFX Application Thread] Client.ApplicationBasic (ApplicationBasic.java:29) - запуск приложения
+INFO  2021-03-06 23:38:25 [JavaFX Application Thread] Client.Client (Client.java:25) - start stream socket, input and output
+INFO  2021-03-06 23:38:25 [JavaFX Application Thread] Client.ControllerRegistration (ControllerRegistration.java:42) - Авторизация прошла успешно
+INFO  2021-03-06 23:38:25 [JavaFX Application Thread] Client.Client (Client.java:47) - start connect
+INFO  2021-03-06 23:58:55 [JavaFX Application Thread] Client.ApplicationBasic (ApplicationBasic.java:29) - запуск приложения
+INFO  2021-03-06 23:59:04 [JavaFX Application Thread] Client.Client (Client.java:25) - start stream socket, input and output
+INFO  2021-03-06 23:59:05 [JavaFX Application Thread] Client.ControllerRegistration (ControllerRegistration.java:42) - Авторизация прошла успешно
+INFO  2021-03-06 23:59:05 [JavaFX Application Thread] Client.Client (Client.java:47) - start connect
+INFO  2021-03-07 00:01:19 [JavaFX Application Thread] Client.ApplicationBasic (ApplicationBasic.java:29) - запуск приложения
+INFO  2021-03-07 00:01:28 [JavaFX Application Thread] Client.Client (Client.java:25) - start stream socket, input and output
+INFO  2021-03-07 00:01:28 [JavaFX Application Thread] Client.ControllerRegistration (ControllerRegistration.java:42) - Авторизация прошла успешно
+INFO  2021-03-07 00:01:28 [JavaFX Application Thread] Client.Client (Client.java:47) - start connect
+INFO  2021-03-07 00:02:37 [JavaFX Application Thread] Client.ControllerBasic (ControllerBasic.java:108) - exit program!
+INFO  2021-03-07 00:13:51 [JavaFX Application Thread] Client.ApplicationBasic (ApplicationBasic.java:29) - запуск приложения
+INFO  2021-03-07 00:14:02 [JavaFX Application Thread] Client.Client (Client.java:25) - start stream socket, input and output
+INFO  2021-03-07 00:14:03 [JavaFX Application Thread] Client.ControllerRegistration (ControllerRegistration.java:42) - Авторизация прошла успешно
+INFO  2021-03-07 00:14:03 [JavaFX Application Thread] Client.Client (Client.java:47) - start connect
+INFO  2021-03-07 00:15:17 [JavaFX Application Thread] Client.ControllerBasic (ControllerBasic.java:109) - exit program!
+INFO  2021-03-07 00:31:58 [JavaFX Application Thread] Client.ApplicationBasic (ApplicationBasic.java:29) - запуск приложения
+INFO  2021-03-07 00:32:08 [JavaFX Application Thread] Client.Client (Client.java:25) - start stream socket, input and output
+INFO  2021-03-07 00:32:08 [JavaFX Application Thread] Client.ControllerRegistration (ControllerRegistration.java:42) - Авторизация прошла успешно
+INFO  2021-03-07 00:32:08 [JavaFX Application Thread] Client.Client (Client.java:47) - start connect
+INFO  2021-03-07 00:32:21 [JavaFX Application Thread] Client.ControllerBasic (ControllerBasic.java:110) - exit program!
+INFO  2021-03-07 00:33:24 [JavaFX Application Thread] Client.ApplicationBasic (ApplicationBasic.java:29) - запуск приложения
+INFO  2021-03-07 00:33:33 [JavaFX Application Thread] Client.Client (Client.java:25) - start stream socket, input and output
+INFO  2021-03-07 00:33:33 [JavaFX Application Thread] Client.ControllerRegistration (ControllerRegistration.java:42) - Авторизация прошла успешно
+INFO  2021-03-07 00:33:33 [JavaFX Application Thread] Client.Client (Client.java:47) - start connect
+INFO  2021-03-07 00:36:54 [JavaFX Application Thread] Client.ApplicationBasic (ApplicationBasic.java:29) - запуск приложения
+INFO  2021-03-07 00:37:02 [JavaFX Application Thread] Client.Client (Client.java:25) - start stream socket, input and output
+INFO  2021-03-07 00:37:02 [JavaFX Application Thread] Client.ControllerRegistration (ControllerRegistration.java:42) - Авторизация прошла успешно
+INFO  2021-03-07 00:37:02 [JavaFX Application Thread] Client.Client (Client.java:47) - start connect
+INFO  2021-03-07 00:39:27 [JavaFX Application Thread] Client.ApplicationBasic (ApplicationBasic.java:29) - запуск приложения
+INFO  2021-03-07 00:39:38 [JavaFX Application Thread] Client.Client (Client.java:25) - start stream socket, input and output
+INFO  2021-03-07 00:39:38 [JavaFX Application Thread] Client.ControllerRegistration (ControllerRegistration.java:42) - Авторизация прошла успешно
+INFO  2021-03-07 00:39:38 [JavaFX Application Thread] Client.Client (Client.java:47) - start connect
+INFO  2021-03-07 00:40:20 [JavaFX Application Thread] Client.ControllerBasic (ControllerBasic.java:110) - exit program!
+INFO  2021-03-07 14:47:05 [JavaFX Application Thread] Client.ApplicationBasic (ApplicationBasic.java:29) - запуск приложения
+INFO  2021-03-07 14:47:33 [JavaFX Application Thread] Client.Client (Client.java:25) - start stream socket, input and output
+INFO  2021-03-07 14:47:33 [JavaFX Application Thread] Client.ControllerRegistration (ControllerRegistration.java:42) - Авторизация прошла успешно
+INFO  2021-03-07 14:47:33 [JavaFX Application Thread] Client.Client (Client.java:47) - start connect
+INFO  2021-03-07 14:47:53 [JavaFX Application Thread] Client.ControllerBasic (ControllerBasic.java:108) - exit program!
+INFO  2021-03-07 14:48:40 [JavaFX Application Thread] Client.ApplicationBasic (ApplicationBasic.java:29) - запуск приложения
+INFO  2021-03-07 14:48:49 [JavaFX Application Thread] Client.Client (Client.java:25) - start stream socket, input and output
+INFO  2021-03-07 14:48:49 [JavaFX Application Thread] Client.ControllerRegistration (ControllerRegistration.java:42) - Авторизация прошла успешно
+INFO  2021-03-07 14:48:49 [JavaFX Application Thread] Client.Client (Client.java:47) - start connect
+INFO  2021-03-07 14:54:01 [JavaFX Application Thread] Client.ApplicationBasic (ApplicationBasic.java:29) - запуск приложения
+INFO  2021-03-07 14:54:12 [JavaFX Application Thread] Client.Client (Client.java:25) - start stream socket, input and output
+INFO  2021-03-07 14:54:13 [JavaFX Application Thread] Client.ControllerRegistration (ControllerRegistration.java:42) - Авторизация прошла успешно
+INFO  2021-03-07 14:54:13 [JavaFX Application Thread] Client.Client (Client.java:47) - start connect
+INFO  2021-03-07 14:54:48 [JavaFX Application Thread] Client.ControllerBasic (ControllerBasic.java:106) - exit program!
+INFO  2021-03-07 15:01:57 [JavaFX Application Thread] Client.ApplicationBasic (ApplicationBasic.java:29) - запуск приложения
+INFO  2021-03-07 15:02:07 [JavaFX Application Thread] Client.Client (Client.java:25) - start stream socket, input and output
+INFO  2021-03-07 15:02:08 [JavaFX Application Thread] Client.ControllerRegistration (ControllerRegistration.java:42) - Авторизация прошла успешно
+INFO  2021-03-07 15:02:08 [JavaFX Application Thread] Client.Client (Client.java:47) - start connect
+INFO  2021-03-07 15:03:30 [JavaFX Application Thread] Client.ApplicationBasic (ApplicationBasic.java:29) - запуск приложения
+INFO  2021-03-07 15:03:39 [JavaFX Application Thread] Client.Client (Client.java:25) - start stream socket, input and output
+INFO  2021-03-07 15:03:39 [JavaFX Application Thread] Client.ControllerRegistration (ControllerRegistration.java:42) - Авторизация прошла успешно
+INFO  2021-03-07 15:03:39 [JavaFX Application Thread] Client.Client (Client.java:47) - start connect
+INFO  2021-03-07 15:05:19 [JavaFX Application Thread] Client.ApplicationBasic (ApplicationBasic.java:29) - запуск приложения
+INFO  2021-03-07 15:05:27 [JavaFX Application Thread] Client.Client (Client.java:25) - start stream socket, input and output
+INFO  2021-03-07 15:05:27 [JavaFX Application Thread] Client.ControllerRegistration (ControllerRegistration.java:42) - Авторизация прошла успешно
+INFO  2021-03-07 15:05:27 [JavaFX Application Thread] Client.Client (Client.java:47) - start connect
+INFO  2021-03-07 15:06:17 [JavaFX Application Thread] Client.ControllerBasic (ControllerBasic.java:106) - exit program!
+INFO  2021-03-07 15:08:29 [JavaFX Application Thread] Client.ApplicationBasic (ApplicationBasic.java:29) - запуск приложения
+INFO  2021-03-07 15:08:42 [JavaFX Application Thread] Client.Client (Client.java:25) - start stream socket, input and output
+INFO  2021-03-07 15:08:43 [JavaFX Application Thread] Client.ControllerRegistration (ControllerRegistration.java:42) - Авторизация прошла успешно
+INFO  2021-03-07 15:08:43 [JavaFX Application Thread] Client.Client (Client.java:47) - start connect
+INFO  2021-03-07 16:10:46 [JavaFX Application Thread] Client.ApplicationBasic (ApplicationBasic.java:29) - запуск приложения
+INFO  2021-03-07 16:11:03 [JavaFX Application Thread] Client.Client (Client.java:29) - start stream socket, input and output
+INFO  2021-03-07 16:11:03 [JavaFX Application Thread] Client.ControllerRegistration (ControllerRegistration.java:42) - Авторизация прошла успешно
+INFO  2021-03-07 16:11:03 [JavaFX Application Thread] Client.Client (Client.java:51) - start connect
+INFO  2021-03-07 16:13:12 [JavaFX Application Thread] Client.ApplicationBasic (ApplicationBasic.java:29) - запуск приложения
+INFO  2021-03-07 16:13:27 [JavaFX Application Thread] Client.Client (Client.java:29) - start stream socket, input and output
+INFO  2021-03-07 16:13:27 [JavaFX Application Thread] Client.ControllerRegistration (ControllerRegistration.java:42) - Авторизация прошла успешно
+INFO  2021-03-07 16:13:27 [JavaFX Application Thread] Client.Client (Client.java:51) - start connect
+INFO  2021-03-07 16:14:24 [JavaFX Application Thread] Client.ApplicationBasic (ApplicationBasic.java:29) - запуск приложения
+INFO  2021-03-07 16:14:33 [JavaFX Application Thread] Client.Client (Client.java:29) - start stream socket, input and output
+INFO  2021-03-07 16:14:33 [JavaFX Application Thread] Client.ControllerRegistration (ControllerRegistration.java:52) - Клиент не авторизовался
+INFO  2021-03-07 16:15:19 [JavaFX Application Thread] Client.ApplicationBasic (ApplicationBasic.java:29) - запуск приложения
+INFO  2021-03-07 16:15:29 [JavaFX Application Thread] Client.Client (Client.java:29) - start stream socket, input and output
+INFO  2021-03-07 16:15:29 [JavaFX Application Thread] Client.ControllerRegistration (ControllerRegistration.java:42) - Авторизация прошла успешно
+INFO  2021-03-07 16:15:29 [JavaFX Application Thread] Client.Client (Client.java:51) - start connect
+INFO  2021-03-07 16:21:09 [JavaFX Application Thread] Client.ApplicationBasic (ApplicationBasic.java:29) - запуск приложения
+INFO  2021-03-07 16:21:20 [JavaFX Application Thread] Client.Client (Client.java:29) - start stream socket, input and output
+INFO  2021-03-07 16:21:20 [JavaFX Application Thread] Client.ControllerRegistration (ControllerRegistration.java:42) - Авторизация прошла успешно
+INFO  2021-03-07 16:21:20 [JavaFX Application Thread] Client.Client (Client.java:51) - start connect
+INFO  2021-03-07 16:22:07 [JavaFX Application Thread] Client.ControllerBasic (ControllerBasic.java:111) - exit program!
+INFO  2021-03-07 16:26:10 [JavaFX Application Thread] Client.ApplicationBasic (ApplicationBasic.java:29) - запуск приложения
+INFO  2021-03-07 16:26:21 [JavaFX Application Thread] Client.Client (Client.java:29) - start stream socket, input and output
+INFO  2021-03-07 16:26:21 [JavaFX Application Thread] Client.ControllerRegistration (ControllerRegistration.java:42) - Авторизация прошла успешно
+INFO  2021-03-07 16:26:21 [JavaFX Application Thread] Client.Client (Client.java:51) - start connect
+INFO  2021-03-07 16:30:39 [JavaFX Application Thread] Client.ApplicationBasic (ApplicationBasic.java:29) - запуск приложения
+INFO  2021-03-07 16:30:48 [JavaFX Application Thread] Client.Client (Client.java:29) - start stream socket, input and output
+INFO  2021-03-07 16:30:48 [JavaFX Application Thread] Client.ControllerRegistration (ControllerRegistration.java:42) - Авторизация прошла успешно
+INFO  2021-03-07 16:30:48 [JavaFX Application Thread] Client.Client (Client.java:51) - start connect
+INFO  2021-03-07 16:32:56 [JavaFX Application Thread] Client.ApplicationBasic (ApplicationBasic.java:29) - запуск приложения
+INFO  2021-03-07 16:33:05 [JavaFX Application Thread] Client.Client (Client.java:29) - start stream socket, input and output
+INFO  2021-03-07 16:33:05 [JavaFX Application Thread] Client.ControllerRegistration (ControllerRegistration.java:42) - Авторизация прошла успешно
+INFO  2021-03-07 16:33:05 [JavaFX Application Thread] Client.Client (Client.java:51) - start connect
+INFO  2021-03-07 16:33:47 [JavaFX Application Thread] Client.ControllerBasic (ControllerBasic.java:111) - exit program!
+INFO  2021-03-07 21:42:53 [JavaFX Application Thread] Client.ApplicationBasic (ApplicationBasic.java:29) - запуск приложения
+INFO  2021-03-07 21:43:02 [JavaFX Application Thread] Client.Client (Client.java:29) - start stream socket, input and output
+INFO  2021-03-07 21:43:02 [JavaFX Application Thread] Client.ControllerRegistration (ControllerRegistration.java:42) - Авторизация прошла успешно
+INFO  2021-03-07 21:43:02 [JavaFX Application Thread] Client.Client (Client.java:51) - start connect
+INFO  2021-03-07 21:43:58 [JavaFX Application Thread] Client.ControllerBasic (ControllerBasic.java:111) - exit program!
+INFO  2021-03-07 22:14:16 [JavaFX Application Thread] Client.ApplicationBasic (ApplicationBasic.java:29) - запуск приложения
+INFO  2021-03-07 22:14:27 [JavaFX Application Thread] Client.Client (Client.java:31) - start stream socket, input and output
+INFO  2021-03-07 22:14:27 [JavaFX Application Thread] Client.ControllerRegistration (ControllerRegistration.java:42) - Авторизация прошла успешно
+INFO  2021-03-07 22:14:27 [JavaFX Application Thread] Client.Client (Client.java:53) - start connect
+INFO  2021-03-07 22:15:00 [JavaFX Application Thread] Client.ControllerBasic (ControllerBasic.java:115) - exit program!
+INFO  2021-03-07 22:15:10 [JavaFX Application Thread] Client.ApplicationBasic (ApplicationBasic.java:29) - запуск приложения
+INFO  2021-03-07 22:15:24 [JavaFX Application Thread] Client.Client (Client.java:31) - start stream socket, input and output
+INFO  2021-03-07 22:15:24 [JavaFX Application Thread] Client.ControllerRegistration (ControllerRegistration.java:42) - Авторизация прошла успешно
+INFO  2021-03-07 22:15:24 [JavaFX Application Thread] Client.Client (Client.java:53) - start connect
+INFO  2021-03-07 22:15:52 [JavaFX Application Thread] Client.ControllerBasic (ControllerBasic.java:115) - exit program!
+INFO  2021-03-07 22:17:04 [JavaFX Application Thread] Client.ApplicationBasic (ApplicationBasic.java:29) - запуск приложения
+INFO  2021-03-07 22:17:15 [JavaFX Application Thread] Client.Client (Client.java:31) - start stream socket, input and output
+INFO  2021-03-07 22:17:15 [JavaFX Application Thread] Client.ControllerRegistration (ControllerRegistration.java:42) - Авторизация прошла успешно
+INFO  2021-03-07 22:17:15 [JavaFX Application Thread] Client.Client (Client.java:53) - start connect
+INFO  2021-03-07 22:19:57 [JavaFX Application Thread] Client.ControllerBasic (ControllerBasic.java:115) - exit program!
+INFO  2021-03-08 00:21:39 [JavaFX Application Thread] Client.ApplicationBasic (ApplicationBasic.java:29) - запуск приложения
+INFO  2021-03-08 00:24:06 [JavaFX Application Thread] Client.Client (Client.java:32) - start stream socket, input and output
+INFO  2021-03-08 00:24:06 [JavaFX Application Thread] Client.ControllerRegistration (ControllerRegistration.java:42) - Авторизация прошла успешно
+INFO  2021-03-08 00:24:06 [JavaFX Application Thread] Client.Client (Client.java:54) - start connect
+INFO  2021-03-08 00:29:26 [JavaFX Application Thread] Client.ApplicationBasic (ApplicationBasic.java:29) - запуск приложения
+INFO  2021-03-08 00:29:34 [JavaFX Application Thread] Client.ControllerRegistration (ControllerRegistration.java:72) - Открыто окно регистрации
+INFO  2021-03-08 00:29:34 [JavaFX Application Thread] Client.Client (Client.java:32) - start stream socket, input and output
+INFO  2021-03-08 00:30:12 [JavaFX Application Thread] Client.ControllerRegistration (ControllerRegistration.java:98) - Регистрация прошла успешно
+INFO  2021-03-08 00:31:21 [JavaFX Application Thread] Client.ControllerRegistration (ControllerRegistration.java:102) - Отклонение регистрации
+INFO  2021-03-08 00:31:57 [JavaFX Application Thread] Client.ControllerRegistration (ControllerRegistration.java:42) - Авторизация прошла успешно
+INFO  2021-03-08 00:31:57 [JavaFX Application Thread] Client.Client (Client.java:54) - start connect
+INFO  2021-03-08 00:36:04 [JavaFX Application Thread] Client.ControllerBasic (ControllerBasic.java:116) - exit program!
+INFO  2021-03-08 00:36:06 [JavaFX Application Thread] Client.ControllerBasic (ControllerBasic.java:116) - exit program!
+INFO  2021-03-08 00:39:57 [JavaFX Application Thread] Client.ApplicationBasic (ApplicationBasic.java:29) - запуск приложения
+INFO  2021-03-08 00:40:09 [JavaFX Application Thread] Client.Client (Client.java:32) - start stream socket, input and output
+INFO  2021-03-08 00:40:09 [JavaFX Application Thread] Client.ControllerRegistration (ControllerRegistration.java:42) - Авторизация прошла успешно
+INFO  2021-03-08 00:40:09 [JavaFX Application Thread] Client.Client (Client.java:54) - start connect
+INFO  2021-03-08 00:40:25 [JavaFX Application Thread] Client.ApplicationBasic (ApplicationBasic.java:29) - запуск приложения
+INFO  2021-03-08 00:40:36 [JavaFX Application Thread] Client.Client (Client.java:32) - start stream socket, input and output
+INFO  2021-03-08 00:40:36 [JavaFX Application Thread] Client.ControllerRegistration (ControllerRegistration.java:42) - Авторизация прошла успешно
+INFO  2021-03-08 00:40:36 [JavaFX Application Thread] Client.Client (Client.java:54) - start connect
+INFO  2021-03-08 00:41:11 [JavaFX Application Thread] Client.ControllerBasic (ControllerBasic.java:116) - exit program!
+INFO  2021-03-08 00:41:13 [JavaFX Application Thread] Client.ControllerBasic (ControllerBasic.java:116) - exit program!
+INFO  2021-03-08 00:42:18 [JavaFX Application Thread] Client.ApplicationBasic (ApplicationBasic.java:29) - запуск приложения
+INFO  2021-03-08 00:42:27 [JavaFX Application Thread] Client.Client (Client.java:31) - start stream socket, input and output
+INFO  2021-03-08 00:42:27 [JavaFX Application Thread] Client.ControllerRegistration (ControllerRegistration.java:42) - Авторизация прошла успешно
+INFO  2021-03-08 00:42:27 [JavaFX Application Thread] Client.Client (Client.java:53) - start connect
+INFO  2021-03-08 00:42:41 [JavaFX Application Thread] Client.ApplicationBasic (ApplicationBasic.java:29) - запуск приложения
+INFO  2021-03-08 00:42:54 [JavaFX Application Thread] Client.Client (Client.java:31) - start stream socket, input and output
+INFO  2021-03-08 00:42:54 [JavaFX Application Thread] Client.ControllerRegistration (ControllerRegistration.java:42) - Авторизация прошла успешно
+INFO  2021-03-08 00:42:54 [JavaFX Application Thread] Client.Client (Client.java:53) - start connect
+INFO  2021-03-08 00:43:11 [JavaFX Application Thread] Client.ControllerBasic (ControllerBasic.java:116) - exit program!
+INFO  2021-03-08 00:43:13 [JavaFX Application Thread] Client.ControllerBasic (ControllerBasic.java:116) - exit program!
+INFO  2021-03-08 00:46:23 [JavaFX Application Thread] Client.ApplicationBasic (ApplicationBasic.java:29) - запуск приложения
+INFO  2021-03-08 00:46:33 [JavaFX Application Thread] Client.Client (Client.java:31) - start stream socket, input and output
+INFO  2021-03-08 00:46:34 [JavaFX Application Thread] Client.ControllerRegistration (ControllerRegistration.java:42) - Авторизация прошла успешно
+INFO  2021-03-08 00:46:34 [JavaFX Application Thread] Client.Client (Client.java:53) - start connect
+INFO  2021-03-08 00:46:42 [JavaFX Application Thread] Client.ControllerBasic (ControllerBasic.java:116) - exit program!
+INFO  2021-03-08 00:47:21 [JavaFX Application Thread] Client.ApplicationBasic (ApplicationBasic.java:29) - запуск приложения
+INFO  2021-03-08 00:47:30 [JavaFX Application Thread] Client.Client (Client.java:31) - start stream socket, input and output
+INFO  2021-03-08 00:47:31 [JavaFX Application Thread] Client.ControllerRegistration (ControllerRegistration.java:42) - Авторизация прошла успешно
+INFO  2021-03-08 00:47:31 [JavaFX Application Thread] Client.Client (Client.java:53) - start connect
+INFO  2021-03-08 00:48:33 [JavaFX Application Thread] Client.ApplicationBasic (ApplicationBasic.java:29) - запуск приложения
+INFO  2021-03-08 00:48:43 [JavaFX Application Thread] Client.Client (Client.java:31) - start stream socket, input and output
+INFO  2021-03-08 00:49:45 [JavaFX Application Thread] Client.ControllerRegistration (ControllerRegistration.java:42) - Авторизация прошла успешно
+INFO  2021-03-08 00:49:45 [JavaFX Application Thread] Client.Client (Client.java:53) - start connect
+INFO  2021-03-08 00:55:45 [JavaFX Application Thread] Client.ApplicationBasic (ApplicationBasic.java:29) - запуск приложения
+INFO  2021-03-08 00:55:56 [JavaFX Application Thread] Client.Client (Client.java:31) - start stream socket, input and output
+INFO  2021-03-08 00:56:43 [JavaFX Application Thread] Client.ApplicationBasic (ApplicationBasic.java:29) - запуск приложения
+INFO  2021-03-08 00:56:52 [JavaFX Application Thread] Client.Client (Client.java:31) - start stream socket, input and output
+INFO  2021-03-08 00:57:25 [JavaFX Application Thread] Client.ApplicationBasic (ApplicationBasic.java:29) - запуск приложения
+INFO  2021-03-08 00:57:34 [JavaFX Application Thread] Client.Client (Client.java:31) - start stream socket, input and output
+INFO  2021-03-08 00:57:34 [JavaFX Application Thread] Client.ControllerRegistration (ControllerRegistration.java:42) - Авторизация прошла успешно
+INFO  2021-03-08 00:57:34 [JavaFX Application Thread] Client.Client (Client.java:53) - start connect
+INFO  2021-03-08 00:57:56 [JavaFX Application Thread] Client.ApplicationBasic (ApplicationBasic.java:29) - запуск приложения
+INFO  2021-03-08 00:58:05 [JavaFX Application Thread] Client.Client (Client.java:31) - start stream socket, input and output
+INFO  2021-03-08 00:58:05 [JavaFX Application Thread] Client.ControllerRegistration (ControllerRegistration.java:42) - Авторизация прошла успешно
+INFO  2021-03-08 00:58:05 [JavaFX Application Thread] Client.Client (Client.java:53) - start connect
+INFO  2021-03-08 01:00:20 [JavaFX Application Thread] Client.ApplicationBasic (ApplicationBasic.java:29) - запуск приложения
+INFO  2021-03-08 01:00:30 [JavaFX Application Thread] Client.Client (Client.java:31) - start stream socket, input and output
+INFO  2021-03-08 01:00:30 [JavaFX Application Thread] Client.ControllerRegistration (ControllerRegistration.java:42) - Авторизация прошла успешно
+INFO  2021-03-08 01:00:30 [JavaFX Application Thread] Client.Client (Client.java:53) - start connect
+INFO  2021-03-08 01:00:42 [JavaFX Application Thread] Client.ApplicationBasic (ApplicationBasic.java:29) - запуск приложения
+INFO  2021-03-08 01:00:56 [JavaFX Application Thread] Client.Client (Client.java:31) - start stream socket, input and output
+INFO  2021-03-08 01:00:56 [JavaFX Application Thread] Client.ControllerRegistration (ControllerRegistration.java:42) - Авторизация прошла успешно
+INFO  2021-03-08 01:00:56 [JavaFX Application Thread] Client.Client (Client.java:53) - start connect
+INFO  2021-03-08 01:01:16 [JavaFX Application Thread] Client.ControllerBasic (ControllerBasic.java:116) - exit program!
+INFO  2021-03-08 01:01:18 [JavaFX Application Thread] Client.ControllerBasic (ControllerBasic.java:116) - exit program!
+INFO  2021-03-08 01:01:45 [JavaFX Application Thread] Client.ApplicationBasic (ApplicationBasic.java:29) - запуск приложения
+INFO  2021-03-08 01:01:55 [JavaFX Application Thread] Client.Client (Client.java:31) - start stream socket, input and output
+INFO  2021-03-08 01:01:55 [JavaFX Application Thread] Client.ControllerRegistration (ControllerRegistration.java:42) - Авторизация прошла успешно
+INFO  2021-03-08 01:01:55 [JavaFX Application Thread] Client.Client (Client.java:53) - start connect
+INFO  2021-03-08 01:03:12 [JavaFX Application Thread] Client.ApplicationBasic (ApplicationBasic.java:29) - запуск приложения
+INFO  2021-03-08 01:03:53 [JavaFX Application Thread] Client.ApplicationBasic (ApplicationBasic.java:29) - запуск приложения
+INFO  2021-03-08 01:04:04 [JavaFX Application Thread] Client.ApplicationBasic (ApplicationBasic.java:29) - запуск приложения
+INFO  2021-03-08 01:04:20 [JavaFX Application Thread] Client.Client (Client.java:31) - start stream socket, input and output
+INFO  2021-03-08 01:04:20 [JavaFX Application Thread] Client.ControllerRegistration (ControllerRegistration.java:42) - Авторизация прошла успешно
+INFO  2021-03-08 01:04:20 [JavaFX Application Thread] Client.Client (Client.java:53) - start connect
+INFO  2021-03-08 01:04:51 [JavaFX Application Thread] Client.Client (Client.java:31) - start stream socket, input and output
+INFO  2021-03-08 01:04:51 [JavaFX Application Thread] Client.ControllerRegistration (ControllerRegistration.java:42) - Авторизация прошла успешно
+INFO  2021-03-08 01:04:51 [JavaFX Application Thread] Client.Client (Client.java:53) - start connect
+INFO  2021-03-08 01:16:01 [JavaFX Application Thread] Client.ApplicationBasic (ApplicationBasic.java:29) - запуск приложения
+INFO  2021-03-08 01:16:10 [JavaFX Application Thread] Client.Client (Client.java:31) - start stream socket, input and output
+INFO  2021-03-08 01:18:15 [JavaFX Application Thread] Client.ApplicationBasic (ApplicationBasic.java:29) - запуск приложения
+INFO  2021-03-08 01:18:26 [JavaFX Application Thread] Client.Client (Client.java:31) - start stream socket, input and output
+INFO  2021-03-08 01:18:26 [JavaFX Application Thread] Client.ControllerRegistration (ControllerRegistration.java:42) - Авторизация прошла успешно
+INFO  2021-03-08 01:18:26 [JavaFX Application Thread] Client.Client (Client.java:53) - start connect
+INFO  2021-03-08 01:18:40 [JavaFX Application Thread] Client.ApplicationBasic (ApplicationBasic.java:29) - запуск приложения
+INFO  2021-03-08 01:18:53 [JavaFX Application Thread] Client.Client (Client.java:31) - start stream socket, input and output
+INFO  2021-03-08 01:18:53 [JavaFX Application Thread] Client.ControllerRegistration (ControllerRegistration.java:42) - Авторизация прошла успешно
+INFO  2021-03-08 01:18:53 [JavaFX Application Thread] Client.Client (Client.java:53) - start connect
+INFO  2021-03-09 00:31:19 [JavaFX Application Thread] Client.ApplicationBasic (ApplicationBasic.java:29) - запуск приложения
+INFO  2021-03-09 00:31:29 [JavaFX Application Thread] Client.Client (Client.java:31) - start stream socket, input and output
+INFO  2021-03-09 00:31:29 [JavaFX Application Thread] Client.ControllerRegistration (ControllerRegistration.java:42) - Авторизация прошла успешно
+INFO  2021-03-09 00:31:29 [JavaFX Application Thread] Client.Client (Client.java:53) - start connect
+INFO  2021-03-09 00:31:42 [JavaFX Application Thread] Client.ApplicationBasic (ApplicationBasic.java:29) - запуск приложения
+INFO  2021-03-09 00:31:51 [JavaFX Application Thread] Client.Client (Client.java:31) - start stream socket, input and output
+INFO  2021-03-09 00:31:51 [JavaFX Application Thread] Client.ControllerRegistration (ControllerRegistration.java:42) - Авторизация прошла успешно
+INFO  2021-03-09 00:31:51 [JavaFX Application Thread] Client.Client (Client.java:53) - start connect
+INFO  2021-03-09 00:33:13 [JavaFX Application Thread] Client.ControllerBasic (ControllerBasic.java:116) - exit program!
+INFO  2021-03-09 00:33:16 [JavaFX Application Thread] Client.ControllerBasic (ControllerBasic.java:116) - exit program!
+INFO  2021-03-09 00:45:30 [JavaFX Application Thread] Client.ApplicationBasic (ApplicationBasic.java:29) - запуск приложения
+INFO  2021-03-09 00:45:42 [JavaFX Application Thread] Client.Client (Client.java:31) - start stream socket, input and output
+INFO  2021-03-09 00:45:42 [JavaFX Application Thread] Client.ControllerRegistration (ControllerRegistration.java:42) - Авторизация прошла успешно
+INFO  2021-03-09 00:45:42 [JavaFX Application Thread] Client.Client (Client.java:53) - start connect
+INFO  2021-03-09 00:45:54 [JavaFX Application Thread] Client.ApplicationBasic (ApplicationBasic.java:29) - запуск приложения
+INFO  2021-03-09 00:46:04 [JavaFX Application Thread] Client.Client (Client.java:31) - start stream socket, input and output
+INFO  2021-03-09 00:46:04 [JavaFX Application Thread] Client.ControllerRegistration (ControllerRegistration.java:42) - Авторизация прошла успешно
+INFO  2021-03-09 00:46:04 [JavaFX Application Thread] Client.Client (Client.java:53) - start connect
+INFO  2021-03-09 00:47:36 [JavaFX Application Thread] Client.ControllerBasic (ControllerBasic.java:117) - exit program!
+INFO  2021-03-09 00:47:38 [JavaFX Application Thread] Client.ControllerBasic (ControllerBasic.java:117) - exit program!
+INFO  2021-03-09 01:03:00 [JavaFX Application Thread] Client.ApplicationBasic (ApplicationBasic.java:29) - запуск приложения
+INFO  2021-03-09 01:03:10 [JavaFX Application Thread] Client.Client (Client.java:31) - start stream socket, input and output
+INFO  2021-03-09 01:03:10 [JavaFX Application Thread] Client.ControllerRegistration (ControllerRegistration.java:42) - Авторизация прошла успешно
+INFO  2021-03-09 01:03:10 [JavaFX Application Thread] Client.Client (Client.java:53) - start connect
+INFO  2021-03-09 01:03:24 [JavaFX Application Thread] Client.ApplicationBasic (ApplicationBasic.java:29) - запуск приложения
+INFO  2021-03-09 01:03:34 [JavaFX Application Thread] Client.Client (Client.java:31) - start stream socket, input and output
+INFO  2021-03-09 01:03:34 [JavaFX Application Thread] Client.ControllerRegistration (ControllerRegistration.java:42) - Авторизация прошла успешно
+INFO  2021-03-09 01:03:34 [JavaFX Application Thread] Client.Client (Client.java:53) - start connect
+INFO  2021-03-09 01:04:43 [JavaFX Application Thread] Client.ControllerBasic (ControllerBasic.java:117) - exit program!
+INFO  2021-03-09 01:04:45 [JavaFX Application Thread] Client.ControllerBasic (ControllerBasic.java:117) - exit program!
+INFO  2021-03-09 01:07:04 [JavaFX Application Thread] Client.ApplicationBasic (ApplicationBasic.java:29) - запуск приложения
+INFO  2021-03-09 01:07:13 [JavaFX Application Thread] Client.Client (Client.java:31) - start stream socket, input and output
+INFO  2021-03-09 01:07:13 [JavaFX Application Thread] Client.ControllerRegistration (ControllerRegistration.java:42) - Авторизация прошла успешно
+INFO  2021-03-09 01:07:13 [JavaFX Application Thread] Client.Client (Client.java:53) - start connect
+INFO  2021-03-09 01:09:51 [JavaFX Application Thread] Client.ApplicationBasic (ApplicationBasic.java:29) - запуск приложения
+INFO  2021-03-09 01:10:02 [JavaFX Application Thread] Client.Client (Client.java:31) - start stream socket, input and output
+INFO  2021-03-09 01:10:02 [JavaFX Application Thread] Client.ControllerRegistration (ControllerRegistration.java:42) - Авторизация прошла успешно
+INFO  2021-03-09 01:10:02 [JavaFX Application Thread] Client.Client (Client.java:53) - start connect
+INFO  2021-03-09 01:16:19 [JavaFX Application Thread] Client.ApplicationBasic (ApplicationBasic.java:29) - запуск приложения
+INFO  2021-03-09 01:16:30 [JavaFX Application Thread] Client.Client (Client.java:31) - start stream socket, input and output
+INFO  2021-03-09 01:16:30 [JavaFX Application Thread] Client.ControllerRegistration (ControllerRegistration.java:42) - Авторизация прошла успешно
+INFO  2021-03-09 01:16:30 [JavaFX Application Thread] Client.Client (Client.java:53) - start connect
+INFO  2021-03-09 01:17:35 [JavaFX Application Thread] Client.ControllerBasic (ControllerBasic.java:117) - exit program!
+INFO  2021-03-09 01:25:16 [JavaFX Application Thread] Client.ApplicationBasic (ApplicationBasic.java:29) - запуск приложения
+INFO  2021-03-09 01:25:27 [JavaFX Application Thread] Client.Client (Client.java:31) - start stream socket, input and output
+INFO  2021-03-09 01:25:27 [JavaFX Application Thread] Client.ControllerRegistration (ControllerRegistration.java:42) - Авторизация прошла успешно
+INFO  2021-03-09 01:25:27 [JavaFX Application Thread] Client.Client (Client.java:53) - start connect
+INFO  2021-03-09 01:25:39 [JavaFX Application Thread] Client.ApplicationBasic (ApplicationBasic.java:29) - запуск приложения
+INFO  2021-03-09 01:25:50 [JavaFX Application Thread] Client.Client (Client.java:31) - start stream socket, input and output
+INFO  2021-03-09 01:25:50 [JavaFX Application Thread] Client.ControllerRegistration (ControllerRegistration.java:42) - Авторизация прошла успешно
+INFO  2021-03-09 01:25:50 [JavaFX Application Thread] Client.Client (Client.java:53) - start connect
+INFO  2021-03-09 01:28:16 [JavaFX Application Thread] Client.ControllerBasic (ControllerBasic.java:117) - exit program!
+INFO  2021-03-09 01:28:20 [JavaFX Application Thread] Client.ControllerBasic (ControllerBasic.java:117) - exit program!
+INFO  2021-03-09 01:33:41 [JavaFX Application Thread] Client.ApplicationBasic (ApplicationBasic.java:29) - запуск приложения
+INFO  2021-03-09 01:33:50 [JavaFX Application Thread] Client.ApplicationBasic (ApplicationBasic.java:29) - запуск приложения
+INFO  2021-03-09 01:34:14 [JavaFX Application Thread] Client.Client (Client.java:31) - start stream socket, input and output
+INFO  2021-03-09 01:34:14 [JavaFX Application Thread] Client.ControllerRegistration (ControllerRegistration.java:42) - Авторизация прошла успешно
+INFO  2021-03-09 01:34:14 [JavaFX Application Thread] Client.Client (Client.java:53) - start connect
+INFO  2021-03-09 01:34:19 [JavaFX Application Thread] Client.Client (Client.java:31) - start stream socket, input and output
+INFO  2021-03-09 01:34:19 [JavaFX Application Thread] Client.ControllerRegistration (ControllerRegistration.java:42) - Авторизация прошла успешно
+INFO  2021-03-09 01:34:19 [JavaFX Application Thread] Client.Client (Client.java:53) - start connect
+INFO  2021-03-09 01:36:34 [JavaFX Application Thread] Client.ApplicationBasic (ApplicationBasic.java:29) - запуск приложения
+INFO  2021-03-09 01:36:45 [JavaFX Application Thread] Client.Client (Client.java:31) - start stream socket, input and output
+INFO  2021-03-09 01:36:45 [JavaFX Application Thread] Client.ControllerRegistration (ControllerRegistration.java:42) - Авторизация прошла успешно
+INFO  2021-03-09 01:36:45 [JavaFX Application Thread] Client.Client (Client.java:53) - start connect
+INFO  2021-03-09 01:37:07 [JavaFX Application Thread] Client.ApplicationBasic (ApplicationBasic.java:29) - запуск приложения
+INFO  2021-03-09 01:37:28 [JavaFX Application Thread] Client.Client (Client.java:31) - start stream socket, input and output
+INFO  2021-03-09 01:37:28 [JavaFX Application Thread] Client.ControllerRegistration (ControllerRegistration.java:42) - Авторизация прошла успешно
+INFO  2021-03-09 01:37:28 [JavaFX Application Thread] Client.Client (Client.java:53) - start connect
+INFO  2021-03-09 01:41:18 [JavaFX Application Thread] Client.ControllerBasic (ControllerBasic.java:117) - exit program!
+INFO  2021-03-09 01:46:49 [JavaFX Application Thread] Client.ControllerBasic (ControllerBasic.java:117) - exit program!
+INFO  2021-03-09 01:47:47 [JavaFX Application Thread] Client.ApplicationBasic (ApplicationBasic.java:29) - запуск приложения
+INFO  2021-03-09 01:47:57 [JavaFX Application Thread] Client.Client (Client.java:31) - start stream socket, input and output
+INFO  2021-03-09 01:47:57 [JavaFX Application Thread] Client.ControllerRegistration (ControllerRegistration.java:42) - Авторизация прошла успешно
+INFO  2021-03-09 01:47:57 [JavaFX Application Thread] Client.Client (Client.java:53) - start connect
+INFO  2021-03-09 01:50:54 [JavaFX Application Thread] Client.ApplicationBasic (ApplicationBasic.java:29) - запуск приложения
+INFO  2021-03-09 01:51:02 [JavaFX Application Thread] Client.ApplicationBasic (ApplicationBasic.java:29) - запуск приложения
+INFO  2021-03-09 01:51:10 [JavaFX Application Thread] Client.Client (Client.java:31) - start stream socket, input and output
+INFO  2021-03-09 01:51:11 [JavaFX Application Thread] Client.ControllerRegistration (ControllerRegistration.java:42) - Авторизация прошла успешно
+INFO  2021-03-09 01:51:11 [JavaFX Application Thread] Client.Client (Client.java:53) - start connect
+INFO  2021-03-09 01:51:27 [JavaFX Application Thread] Client.Client (Client.java:31) - start stream socket, input and output
+INFO  2021-03-09 01:51:27 [JavaFX Application Thread] Client.ControllerRegistration (ControllerRegistration.java:42) - Авторизация прошла успешно
+INFO  2021-03-09 01:51:27 [JavaFX Application Thread] Client.Client (Client.java:53) - start connect
+INFO  2021-03-09 02:05:19 [JavaFX Application Thread] Client.ApplicationBasic (ApplicationBasic.java:29) - запуск приложения
+INFO  2021-03-09 02:05:25 [JavaFX Application Thread] Client.ApplicationBasic (ApplicationBasic.java:29) - запуск приложения
+INFO  2021-03-09 02:05:38 [JavaFX Application Thread] Client.Client (Client.java:31) - start stream socket, input and output
+INFO  2021-03-09 02:05:39 [JavaFX Application Thread] Client.ControllerRegistration (ControllerRegistration.java:42) - Авторизация прошла успешно
+INFO  2021-03-09 02:05:39 [JavaFX Application Thread] Client.Client (Client.java:53) - start connect
+INFO  2021-03-09 02:05:51 [JavaFX Application Thread] Client.Client (Client.java:31) - start stream socket, input and output
+INFO  2021-03-09 02:05:51 [JavaFX Application Thread] Client.ControllerRegistration (ControllerRegistration.java:42) - Авторизация прошла успешно
+INFO  2021-03-09 02:05:51 [JavaFX Application Thread] Client.Client (Client.java:53) - start connect
+INFO  2021-03-09 02:44:48 [JavaFX Application Thread] Client.ApplicationBasic (ApplicationBasic.java:29) - запуск приложения
+INFO  2021-03-09 02:44:56 [JavaFX Application Thread] Client.ApplicationBasic (ApplicationBasic.java:29) - запуск приложения
+INFO  2021-03-09 02:46:05 [JavaFX Application Thread] Client.ApplicationBasic (ApplicationBasic.java:29) - запуск приложения
+INFO  2021-03-09 02:46:12 [JavaFX Application Thread] Client.ApplicationBasic (ApplicationBasic.java:29) - запуск приложения
+INFO  2021-03-09 02:46:19 [JavaFX Application Thread] Client.Client (Client.java:29) - start stream socket, input and output
+INFO  2021-03-09 02:46:20 [JavaFX Application Thread] Client.ControllerRegistration (ControllerRegistration.java:42) - Авторизация прошла успешно
+INFO  2021-03-09 02:46:20 [JavaFX Application Thread] Client.Client (Client.java:51) - start connect
+INFO  2021-03-09 02:46:38 [JavaFX Application Thread] Client.Client (Client.java:29) - start stream socket, input and output
+INFO  2021-03-09 02:46:38 [JavaFX Application Thread] Client.ControllerRegistration (ControllerRegistration.java:42) - Авторизация прошла успешно
+INFO  2021-03-09 02:46:38 [JavaFX Application Thread] Client.Client (Client.java:51) - start connect
+INFO  2021-03-09 02:48:39 [JavaFX Application Thread] Client.ControllerBasic (ControllerBasic.java:117) - exit program!
+INFO  2021-03-09 02:48:41 [JavaFX Application Thread] Client.ControllerBasic (ControllerBasic.java:117) - exit program!
+INFO  2021-03-09 12:18:09 [JavaFX Application Thread] Client.ApplicationBasic (ApplicationBasic.java:29) - запуск приложения
+INFO  2021-03-09 12:18:18 [JavaFX Application Thread] Client.Client (Client.java:29) - start stream socket, input and output
+INFO  2021-03-09 12:18:19 [JavaFX Application Thread] Client.ControllerRegistration (ControllerRegistration.java:42) - Авторизация прошла успешно
+INFO  2021-03-09 12:18:19 [JavaFX Application Thread] Client.Client (Client.java:51) - start connect
+INFO  2021-03-09 12:20:20 [JavaFX Application Thread] Client.ControllerBasic (ControllerBasic.java:116) - exit program!
+INFO  2021-03-09 12:20:31 [JavaFX Application Thread] Client.ApplicationBasic (ApplicationBasic.java:29) - запуск приложения
+INFO  2021-03-09 12:20:45 [JavaFX Application Thread] Client.Client (Client.java:29) - start stream socket, input and output
+INFO  2021-03-09 12:20:45 [JavaFX Application Thread] Client.ControllerRegistration (ControllerRegistration.java:42) - Авторизация прошла успешно
+INFO  2021-03-09 12:20:45 [JavaFX Application Thread] Client.Client (Client.java:51) - start connect
+INFO  2021-03-09 12:21:10 [JavaFX Application Thread] Client.ApplicationBasic (ApplicationBasic.java:29) - запуск приложения
+INFO  2021-03-09 12:21:20 [JavaFX Application Thread] Client.Client (Client.java:29) - start stream socket, input and output
+INFO  2021-03-09 12:21:20 [JavaFX Application Thread] Client.ControllerRegistration (ControllerRegistration.java:42) - Авторизация прошла успешно
+INFO  2021-03-09 12:21:20 [JavaFX Application Thread] Client.Client (Client.java:51) - start connect
+INFO  2021-03-09 12:23:16 [JavaFX Application Thread] Client.ApplicationBasic (ApplicationBasic.java:29) - запуск приложения
+INFO  2021-03-09 12:23:24 [JavaFX Application Thread] Client.Client (Client.java:29) - start stream socket, input and output
+INFO  2021-03-09 12:23:25 [JavaFX Application Thread] Client.ControllerRegistration (ControllerRegistration.java:42) - Авторизация прошла успешно
+INFO  2021-03-09 12:23:25 [JavaFX Application Thread] Client.Client (Client.java:51) - start connect
+INFO  2021-03-09 12:35:48 [JavaFX Application Thread] Client.ApplicationBasic (ApplicationBasic.java:29) - запуск приложения
+INFO  2021-03-09 12:36:00 [JavaFX Application Thread] Client.Client (Client.java:29) - start stream socket, input and output
+INFO  2021-03-09 12:36:01 [JavaFX Application Thread] Client.ControllerRegistration (ControllerRegistration.java:42) - Авторизация прошла успешно
+INFO  2021-03-09 12:36:01 [JavaFX Application Thread] Client.Client (Client.java:51) - start connect
+INFO  2021-03-09 12:37:24 [JavaFX Application Thread] Client.ApplicationBasic (ApplicationBasic.java:29) - запуск приложения
+INFO  2021-03-09 12:37:33 [JavaFX Application Thread] Client.Client (Client.java:29) - start stream socket, input and output
+INFO  2021-03-09 12:37:33 [JavaFX Application Thread] Client.ControllerRegistration (ControllerRegistration.java:42) - Авторизация прошла успешно
+INFO  2021-03-09 12:37:33 [JavaFX Application Thread] Client.Client (Client.java:51) - start connect
+INFO  2021-03-09 12:39:00 [JavaFX Application Thread] Client.ControllerBasic (ControllerBasic.java:116) - exit program!
+INFO  2021-03-09 12:39:58 [JavaFX Application Thread] Client.ApplicationBasic (ApplicationBasic.java:29) - запуск приложения
+INFO  2021-03-09 12:40:06 [JavaFX Application Thread] Client.Client (Client.java:29) - start stream socket, input and output
+INFO  2021-03-09 12:40:07 [JavaFX Application Thread] Client.ControllerRegistration (ControllerRegistration.java:42) - Авторизация прошла успешно
+INFO  2021-03-09 12:40:07 [JavaFX Application Thread] Client.Client (Client.java:51) - start connect
+INFO  2021-03-09 12:47:34 [JavaFX Application Thread] Client.ApplicationBasic (ApplicationBasic.java:29) - запуск приложения
+INFO  2021-03-09 12:47:45 [JavaFX Application Thread] Client.Client (Client.java:29) - start stream socket, input and output
+INFO  2021-03-09 12:47:46 [JavaFX Application Thread] Client.ControllerRegistration (ControllerRegistration.java:42) - Авторизация прошла успешно
+INFO  2021-03-09 12:47:46 [JavaFX Application Thread] Client.Client (Client.java:51) - start connect
+INFO  2021-03-09 12:47:55 [JavaFX Application Thread] Client.ApplicationBasic (ApplicationBasic.java:29) - запуск приложения
+INFO  2021-03-09 12:48:04 [JavaFX Application Thread] Client.Client (Client.java:29) - start stream socket, input and output
+INFO  2021-03-09 12:48:05 [JavaFX Application Thread] Client.ControllerRegistration (ControllerRegistration.java:42) - Авторизация прошла успешно
+INFO  2021-03-09 12:48:05 [JavaFX Application Thread] Client.Client (Client.java:51) - start connect
+INFO  2021-03-09 21:52:17 [JavaFX Application Thread] Client.ApplicationBasic (ApplicationBasic.java:29) - запуск приложения
+INFO  2021-03-09 21:52:29 [JavaFX Application Thread] Client.Client (Client.java:29) - start stream socket, input and output
+INFO  2021-03-09 21:52:29 [JavaFX Application Thread] Client.ControllerRegistration (ControllerRegistration.java:42) - Авторизация прошла успешно
+INFO  2021-03-09 21:52:29 [JavaFX Application Thread] Client.Client (Client.java:51) - start connect
+INFO  2021-03-09 21:52:40 [JavaFX Application Thread] Client.ApplicationBasic (ApplicationBasic.java:29) - запуск приложения
+INFO  2021-03-09 21:52:59 [JavaFX Application Thread] Client.Client (Client.java:29) - start stream socket, input and output
+INFO  2021-03-09 21:52:59 [JavaFX Application Thread] Client.ControllerRegistration (ControllerRegistration.java:42) - Авторизация прошла успешно
+INFO  2021-03-09 21:52:59 [JavaFX Application Thread] Client.Client (Client.java:51) - start connect
+INFO  2021-03-09 21:58:20 [JavaFX Application Thread] Client.ApplicationBasic (ApplicationBasic.java:29) - запуск приложения
+INFO  2021-03-09 21:58:33 [JavaFX Application Thread] Client.Client (Client.java:29) - start stream socket, input and output
+INFO  2021-03-09 21:58:34 [JavaFX Application Thread] Client.ControllerRegistration (ControllerRegistration.java:42) - Авторизация прошла успешно
+INFO  2021-03-09 21:58:34 [JavaFX Application Thread] Client.Client (Client.java:51) - start connect
+INFO  2021-03-09 21:58:45 [JavaFX Application Thread] Client.ApplicationBasic (ApplicationBasic.java:29) - запуск приложения
+INFO  2021-03-09 21:58:56 [JavaFX Application Thread] Client.Client (Client.java:29) - start stream socket, input and output
+INFO  2021-03-09 21:58:56 [JavaFX Application Thread] Client.ControllerRegistration (ControllerRegistration.java:42) - Авторизация прошла успешно
+INFO  2021-03-09 21:58:56 [JavaFX Application Thread] Client.Client (Client.java:51) - start connect
+INFO  2021-03-09 22:00:38 [JavaFX Application Thread] Client.ControllerBasic (ControllerBasic.java:116) - exit program!
+INFO  2021-03-09 22:00:41 [JavaFX Application Thread] Client.ControllerBasic (ControllerBasic.java:116) - exit program!
+INFO  2021-03-09 22:01:29 [JavaFX Application Thread] Client.ApplicationBasic (ApplicationBasic.java:29) - запуск приложения
+INFO  2021-03-09 22:01:41 [JavaFX Application Thread] Client.Client (Client.java:29) - start stream socket, input and output
+INFO  2021-03-09 22:01:42 [JavaFX Application Thread] Client.ControllerRegistration (ControllerRegistration.java:42) - Авторизация прошла успешно
+INFO  2021-03-09 22:01:42 [JavaFX Application Thread] Client.Client (Client.java:51) - start connect
+INFO  2021-03-09 22:01:53 [JavaFX Application Thread] Client.ApplicationBasic (ApplicationBasic.java:29) - запуск приложения
+INFO  2021-03-09 22:02:03 [JavaFX Application Thread] Client.Client (Client.java:29) - start stream socket, input and output
+INFO  2021-03-09 22:02:03 [JavaFX Application Thread] Client.ControllerRegistration (ControllerRegistration.java:42) - Авторизация прошла успешно
+INFO  2021-03-09 22:02:03 [JavaFX Application Thread] Client.Client (Client.java:51) - start connect
+INFO  2021-03-09 22:02:55 [JavaFX Application Thread] Client.ControllerBasic (ControllerBasic.java:116) - exit program!
+INFO  2021-03-09 22:05:33 [JavaFX Application Thread] Client.ApplicationBasic (ApplicationBasic.java:29) - запуск приложения
+INFO  2021-03-09 22:05:40 [JavaFX Application Thread] Client.ApplicationBasic (ApplicationBasic.java:29) - запуск приложения
+INFO  2021-03-09 22:05:55 [JavaFX Application Thread] Client.Client (Client.java:29) - start stream socket, input and output
+INFO  2021-03-09 22:05:55 [JavaFX Application Thread] Client.ControllerRegistration (ControllerRegistration.java:52) - Клиент не авторизовался
+INFO  2021-03-09 22:06:13 [JavaFX Application Thread] Client.ControllerRegistration (ControllerRegistration.java:42) - Авторизация прошла успешно
+INFO  2021-03-09 22:06:13 [JavaFX Application Thread] Client.Client (Client.java:51) - start connect
+INFO  2021-03-09 22:06:27 [JavaFX Application Thread] Client.Client (Client.java:29) - start stream socket, input and output
+INFO  2021-03-09 22:06:27 [JavaFX Application Thread] Client.ControllerRegistration (ControllerRegistration.java:42) - Авторизация прошла успешно
+INFO  2021-03-09 22:06:27 [JavaFX Application Thread] Client.Client (Client.java:51) - start connect
+INFO  2021-03-09 22:25:35 [JavaFX Application Thread] Client.ApplicationBasic (ApplicationBasic.java:29) - запуск приложения
+INFO  2021-03-09 22:25:44 [JavaFX Application Thread] Client.ApplicationBasic (ApplicationBasic.java:29) - запуск приложения
+INFO  2021-03-09 22:25:49 [JavaFX Application Thread] Client.Client (Client.java:29) - start stream socket, input and output
+INFO  2021-03-09 22:25:49 [JavaFX Application Thread] Client.ControllerRegistration (ControllerRegistration.java:42) - Авторизация прошла успешно
+INFO  2021-03-09 22:25:49 [JavaFX Application Thread] Client.Client (Client.java:51) - start connect
+INFO  2021-03-09 22:26:06 [JavaFX Application Thread] Client.Client (Client.java:29) - start stream socket, input and output
+INFO  2021-03-09 22:26:06 [JavaFX Application Thread] Client.ControllerRegistration (ControllerRegistration.java:42) - Авторизация прошла успешно
+INFO  2021-03-09 22:26:06 [JavaFX Application Thread] Client.Client (Client.java:51) - start connect
+INFO  2021-03-09 22:36:06 [JavaFX Application Thread] Client.ApplicationBasic (ApplicationBasic.java:29) - запуск приложения
+INFO  2021-03-09 22:36:17 [JavaFX Application Thread] Client.Client (Client.java:29) - start stream socket, input and output
+INFO  2021-03-09 22:36:17 [JavaFX Application Thread] Client.ControllerRegistration (ControllerRegistration.java:42) - Авторизация прошла успешно
+INFO  2021-03-09 22:36:17 [JavaFX Application Thread] Client.Client (Client.java:51) - start connect
+INFO  2021-03-09 22:36:30 [JavaFX Application Thread] Client.ControllerBasic (ControllerBasic.java:205) - file Game.log is send to server
+INFO  2021-03-09 22:38:26 [JavaFX Application Thread] Client.ControllerBasic (ControllerBasic.java:205) - file Game.log is send to server
+INFO  2021-03-09 22:39:37 [JavaFX Application Thread] Client.ControllerBasic (ControllerBasic.java:116) - exit program!
+INFO  2021-03-09 22:42:42 [JavaFX Application Thread] Client.ApplicationBasic (ApplicationBasic.java:29) - запуск приложения
+INFO  2021-03-09 22:42:54 [JavaFX Application Thread] Client.Client (Client.java:29) - start stream socket, input and output
+INFO  2021-03-09 22:42:55 [JavaFX Application Thread] Client.ControllerRegistration (ControllerRegistration.java:42) - Авторизация прошла успешно
+INFO  2021-03-09 22:42:55 [JavaFX Application Thread] Client.Client (Client.java:51) - start connect
+INFO  2021-03-09 22:43:17 [JavaFX Application Thread] Client.ControllerBasic (ControllerBasic.java:205) - file rev-client_362890.log is send to server
+INFO  2021-03-09 22:45:57 [JavaFX Application Thread] Client.ApplicationBasic (ApplicationBasic.java:29) - запуск приложения
+INFO  2021-03-09 22:46:09 [JavaFX Application Thread] Client.Client (Client.java:29) - start stream socket, input and output
+INFO  2021-03-09 22:46:09 [JavaFX Application Thread] Client.ControllerRegistration (ControllerRegistration.java:42) - Авторизация прошла успешно
+INFO  2021-03-09 22:46:09 [JavaFX Application Thread] Client.Client (Client.java:51) - start connect
+INFO  2021-03-09 22:46:48 [JavaFX Application Thread] Client.ControllerBasic (ControllerBasic.java:205) - file Game.log is send to server
+INFO  2021-03-09 22:47:56 [JavaFX Application Thread] Client.ApplicationBasic (ApplicationBasic.java:29) - запуск приложения
+INFO  2021-03-09 22:48:56 [JavaFX Application Thread] Client.Client (Client.java:29) - start stream socket, input and output
+INFO  2021-03-09 22:48:56 [JavaFX Application Thread] Client.ControllerRegistration (ControllerRegistration.java:42) - Авторизация прошла успешно
+INFO  2021-03-09 22:48:56 [JavaFX Application Thread] Client.Client (Client.java:51) - start connect
+INFO  2021-03-09 22:49:13 [JavaFX Application Thread] Client.ControllerBasic (ControllerBasic.java:205) - file Game.log is send to server
+INFO  2021-03-09 22:53:38 [JavaFX Application Thread] Client.ApplicationBasic (ApplicationBasic.java:29) - запуск приложения
+INFO  2021-03-09 22:53:48 [JavaFX Application Thread] Client.Client (Client.java:29) - start stream socket, input and output
+INFO  2021-03-09 22:53:49 [JavaFX Application Thread] Client.ControllerRegistration (ControllerRegistration.java:42) - Авторизация прошла успешно
+INFO  2021-03-09 22:53:49 [JavaFX Application Thread] Client.Client (Client.java:51) - start connect
+INFO  2021-03-09 22:54:12 [JavaFX Application Thread] Client.ControllerBasic (ControllerBasic.java:205) - file unins000.dat is send to server
+INFO  2021-03-09 22:55:49 [JavaFX Application Thread] Client.ApplicationBasic (ApplicationBasic.java:29) - запуск приложения
+INFO  2021-03-09 22:56:23 [JavaFX Application Thread] Client.Client (Client.java:29) - start stream socket, input and output
+INFO  2021-03-09 22:56:23 [JavaFX Application Thread] Client.ControllerRegistration (ControllerRegistration.java:42) - Авторизация прошла успешно
+INFO  2021-03-09 22:56:23 [JavaFX Application Thread] Client.Client (Client.java:51) - start connect
+INFO  2021-03-09 22:56:47 [JavaFX Application Thread] Client.ControllerBasic (ControllerBasic.java:205) - file bass_alac.dll is send to server
+INFO  2021-03-09 22:57:12 [JavaFX Application Thread] Client.ControllerBasic (ControllerBasic.java:205) - file bass_tta.dll is send to server
+INFO  2021-03-09 22:59:22 [JavaFX Application Thread] Client.ApplicationBasic (ApplicationBasic.java:29) - запуск приложения
+INFO  2021-03-09 22:59:34 [JavaFX Application Thread] Client.Client (Client.java:29) - start stream socket, input and output
+INFO  2021-03-09 22:59:34 [JavaFX Application Thread] Client.ControllerRegistration (ControllerRegistration.java:42) - Авторизация прошла успешно
+INFO  2021-03-09 22:59:34 [JavaFX Application Thread] Client.Client (Client.java:51) - start connect
+INFO  2021-03-09 22:59:55 [JavaFX Application Thread] Client.ControllerBasic (ControllerBasic.java:205) - file LinuxUbuntu.vbox is send to server
+INFO  2021-03-09 23:05:47 [JavaFX Application Thread] Client.ApplicationBasic (ApplicationBasic.java:29) - запуск приложения
+INFO  2021-03-09 23:05:59 [JavaFX Application Thread] Client.Client (Client.java:29) - start stream socket, input and output
+INFO  2021-03-09 23:05:59 [JavaFX Application Thread] Client.ControllerRegistration (ControllerRegistration.java:42) - Авторизация прошла успешно
+INFO  2021-03-09 23:05:59 [JavaFX Application Thread] Client.Client (Client.java:51) - start connect
+INFO  2021-03-09 23:06:15 [JavaFX Application Thread] Client.ControllerBasic (ControllerBasic.java:205) - file bin is send to server
+INFO  2021-03-09 23:07:11 [JavaFX Application Thread] Client.ControllerBasic (ControllerBasic.java:205) - file Game.log is send to server
+INFO  2021-03-09 23:09:40 [JavaFX Application Thread] Client.ApplicationBasic (ApplicationBasic.java:29) - запуск приложения
+INFO  2021-03-09 23:09:50 [JavaFX Application Thread] Client.Client (Client.java:29) - start stream socket, input and output
+INFO  2021-03-09 23:09:50 [JavaFX Application Thread] Client.ControllerRegistration (ControllerRegistration.java:42) - Авторизация прошла успешно
+INFO  2021-03-09 23:09:50 [JavaFX Application Thread] Client.Client (Client.java:51) - start connect
+INFO  2021-03-09 23:10:09 [JavaFX Application Thread] Client.ControllerBasic (ControllerBasic.java:205) - file ОПИСАНИЕ.TXT is send to server
+INFO  2021-03-09 23:12:53 [JavaFX Application Thread] Client.ApplicationBasic (ApplicationBasic.java:29) - запуск приложения
+INFO  2021-03-09 23:13:06 [JavaFX Application Thread] Client.Client (Client.java:29) - start stream socket, input and output
+INFO  2021-03-09 23:13:06 [JavaFX Application Thread] Client.ControllerRegistration (ControllerRegistration.java:42) - Авторизация прошла успешно
+INFO  2021-03-09 23:13:06 [JavaFX Application Thread] Client.Client (Client.java:51) - start connect
+INFO  2021-03-09 23:13:14 [JavaFX Application Thread] Client.ControllerBasic (ControllerBasic.java:205) - file ОПИСАНИЕ.TXT is send to server
+INFO  2021-03-09 23:18:30 [JavaFX Application Thread] Client.ApplicationBasic (ApplicationBasic.java:29) - запуск приложения
+INFO  2021-03-09 23:18:42 [JavaFX Application Thread] Client.Client (Client.java:29) - start stream socket, input and output
+INFO  2021-03-09 23:18:43 [JavaFX Application Thread] Client.ControllerRegistration (ControllerRegistration.java:42) - Авторизация прошла успешно
+INFO  2021-03-09 23:18:43 [JavaFX Application Thread] Client.Client (Client.java:51) - start connect
+INFO  2021-03-09 23:19:03 [JavaFX Application Thread] Client.ControllerBasic (ControllerBasic.java:205) - file ОПИСАНИЕ.TXT is send to server
+INFO  2021-03-09 23:19:54 [JavaFX Application Thread] Client.ControllerBasic (ControllerBasic.java:268) - file ServerSaveFiles\ServerClientDirectory\newFile\ОПИСАНИЕ.TXT download on client
+INFO  2021-03-09 23:35:16 [JavaFX Application Thread] Client.ApplicationBasic (ApplicationBasic.java:29) - запуск приложения
+INFO  2021-03-09 23:35:28 [JavaFX Application Thread] Client.ApplicationBasic (ApplicationBasic.java:29) - запуск приложения
+INFO  2021-03-09 23:35:37 [JavaFX Application Thread] Client.Client (Client.java:29) - start stream socket, input and output
+INFO  2021-03-09 23:35:38 [JavaFX Application Thread] Client.ControllerRegistration (ControllerRegistration.java:42) - Авторизация прошла успешно
+INFO  2021-03-09 23:35:38 [JavaFX Application Thread] Client.Client (Client.java:51) - start connect
+INFO  2021-03-09 23:35:55 [JavaFX Application Thread] Client.Client (Client.java:29) - start stream socket, input and output
+INFO  2021-03-09 23:35:55 [JavaFX Application Thread] Client.ControllerRegistration (ControllerRegistration.java:42) - Авторизация прошла успешно
+INFO  2021-03-09 23:35:55 [JavaFX Application Thread] Client.Client (Client.java:51) - start connect
+INFO  2021-03-09 23:36:45 [JavaFX Application Thread] Client.ControllerBasic (ControllerBasic.java:116) - exit program!
+INFO  2021-03-09 23:36:47 [JavaFX Application Thread] Client.ControllerBasic (ControllerBasic.java:116) - exit program!
+INFO  2021-03-09 23:38:32 [JavaFX Application Thread] Client.ApplicationBasic (ApplicationBasic.java:29) - запуск приложения
+INFO  2021-03-09 23:38:43 [JavaFX Application Thread] Client.Client (Client.java:29) - start stream socket, input and output
+INFO  2021-03-09 23:38:43 [JavaFX Application Thread] Client.ControllerRegistration (ControllerRegistration.java:42) - Авторизация прошла успешно
+INFO  2021-03-09 23:38:43 [JavaFX Application Thread] Client.Client (Client.java:51) - start connect
+INFO  2021-03-09 23:38:57 [JavaFX Application Thread] Client.ApplicationBasic (ApplicationBasic.java:29) - запуск приложения
+INFO  2021-03-09 23:39:07 [JavaFX Application Thread] Client.Client (Client.java:29) - start stream socket, input and output
+INFO  2021-03-09 23:39:07 [JavaFX Application Thread] Client.ControllerRegistration (ControllerRegistration.java:42) - Авторизация прошла успешно
+INFO  2021-03-09 23:39:07 [JavaFX Application Thread] Client.Client (Client.java:51) - start connect
+INFO  2021-03-09 23:40:15 [JavaFX Application Thread] Client.ControllerBasic (ControllerBasic.java:116) - exit program!
+INFO  2021-03-09 23:40:17 [JavaFX Application Thread] Client.ControllerBasic (ControllerBasic.java:116) - exit program!
+INFO  2021-03-09 23:41:44 [JavaFX Application Thread] Client.ApplicationBasic (ApplicationBasic.java:29) - запуск приложения
+INFO  2021-03-09 23:41:59 [JavaFX Application Thread] Client.Client (Client.java:29) - start stream socket, input and output
+INFO  2021-03-09 23:41:59 [JavaFX Application Thread] Client.ControllerRegistration (ControllerRegistration.java:42) - Авторизация прошла успешно
+INFO  2021-03-09 23:41:59 [JavaFX Application Thread] Client.Client (Client.java:51) - start connect
+INFO  2021-03-09 23:42:09 [JavaFX Application Thread] Client.ApplicationBasic (ApplicationBasic.java:29) - запуск приложения
+INFO  2021-03-09 23:42:19 [JavaFX Application Thread] Client.Client (Client.java:29) - start stream socket, input and output
+INFO  2021-03-09 23:42:19 [JavaFX Application Thread] Client.ControllerRegistration (ControllerRegistration.java:42) - Авторизация прошла успешно
+INFO  2021-03-09 23:42:19 [JavaFX Application Thread] Client.Client (Client.java:51) - start connect
+INFO  2021-03-09 23:44:51 [JavaFX Application Thread] Client.ControllerBasic (ControllerBasic.java:116) - exit program!
+INFO  2021-03-09 23:45:36 [JavaFX Application Thread] Client.ApplicationBasic (ApplicationBasic.java:29) - запуск приложения
+INFO  2021-03-09 23:45:49 [JavaFX Application Thread] Client.Client (Client.java:29) - start stream socket, input and output
+INFO  2021-03-09 23:45:49 [JavaFX Application Thread] Client.ControllerRegistration (ControllerRegistration.java:42) - Авторизация прошла успешно
+INFO  2021-03-09 23:45:49 [JavaFX Application Thread] Client.Client (Client.java:51) - start connect
+INFO  2021-03-09 23:45:58 [JavaFX Application Thread] Client.ApplicationBasic (ApplicationBasic.java:29) - запуск приложения
+INFO  2021-03-09 23:46:09 [JavaFX Application Thread] Client.Client (Client.java:29) - start stream socket, input and output
+INFO  2021-03-09 23:46:09 [JavaFX Application Thread] Client.ControllerRegistration (ControllerRegistration.java:52) - Клиент не авторизовался
+INFO  2021-03-09 23:46:21 [JavaFX Application Thread] Client.ControllerRegistration (ControllerRegistration.java:42) - Авторизация прошла успешно
+INFO  2021-03-09 23:46:21 [JavaFX Application Thread] Client.Client (Client.java:51) - start connect
+INFO  2021-03-09 23:59:25 [JavaFX Application Thread] Client.ApplicationBasic (ApplicationBasic.java:29) - запуск приложения
+INFO  2021-03-09 23:59:36 [JavaFX Application Thread] Client.Client (Client.java:29) - start stream socket, input and output
+INFO  2021-03-09 23:59:36 [JavaFX Application Thread] Client.ControllerRegistration (ControllerRegistration.java:42) - Авторизация прошла успешно
+INFO  2021-03-09 23:59:36 [JavaFX Application Thread] Client.Client (Client.java:51) - start connect
+INFO  2021-03-10 00:00:33 [JavaFX Application Thread] Client.ApplicationBasic (ApplicationBasic.java:29) - запуск приложения
+INFO  2021-03-10 00:00:47 [JavaFX Application Thread] Client.Client (Client.java:29) - start stream socket, input and output
+INFO  2021-03-10 00:00:47 [JavaFX Application Thread] Client.ControllerRegistration (ControllerRegistration.java:42) - Авторизация прошла успешно
+INFO  2021-03-10 00:00:47 [JavaFX Application Thread] Client.Client (Client.java:51) - start connect
+INFO  2021-03-10 00:01:31 [JavaFX Application Thread] Client.ControllerBasic (ControllerBasic.java:116) - exit program!
+INFO  2021-03-10 00:01:32 [JavaFX Application Thread] Client.ControllerBasic (ControllerBasic.java:116) - exit program!
+INFO  2021-03-10 00:10:21 [JavaFX Application Thread] Client.ApplicationBasic (ApplicationBasic.java:29) - запуск приложения
+INFO  2021-03-10 00:10:52 [JavaFX Application Thread] Client.ApplicationBasic (ApplicationBasic.java:29) - запуск приложения
+INFO  2021-03-10 00:11:07 [JavaFX Application Thread] Client.Client (Client.java:29) - start stream socket, input and output
+INFO  2021-03-10 00:11:07 [JavaFX Application Thread] Client.ControllerRegistration (ControllerRegistration.java:42) - Авторизация прошла успешно
+INFO  2021-03-10 00:11:07 [JavaFX Application Thread] Client.Client (Client.java:51) - start connect
+INFO  2021-03-10 00:11:43 [JavaFX Application Thread] Client.ApplicationBasic (ApplicationBasic.java:29) - запуск приложения
+INFO  2021-03-10 00:11:55 [JavaFX Application Thread] Client.Client (Client.java:29) - start stream socket, input and output
+INFO  2021-03-10 00:11:55 [JavaFX Application Thread] Client.ControllerRegistration (ControllerRegistration.java:52) - Клиент не авторизовался
+INFO  2021-03-10 00:12:07 [JavaFX Application Thread] Client.ControllerRegistration (ControllerRegistration.java:42) - Авторизация прошла успешно
+INFO  2021-03-10 00:12:07 [JavaFX Application Thread] Client.Client (Client.java:51) - start connect
+INFO  2021-03-10 00:12:48 [JavaFX Application Thread] Client.ControllerBasic (ControllerBasic.java:116) - exit program!
+INFO  2021-03-10 00:12:51 [JavaFX Application Thread] Client.ControllerBasic (ControllerBasic.java:116) - exit program!
+INFO  2021-03-10 00:13:24 [JavaFX Application Thread] Client.ApplicationBasic (ApplicationBasic.java:29) - запуск приложения
+INFO  2021-03-10 00:13:33 [JavaFX Application Thread] Client.Client (Client.java:29) - start stream socket, input and output
+INFO  2021-03-10 00:13:33 [JavaFX Application Thread] Client.ControllerRegistration (ControllerRegistration.java:42) - Авторизация прошла успешно
+INFO  2021-03-10 00:13:33 [JavaFX Application Thread] Client.Client (Client.java:51) - start connect
+INFO  2021-03-10 00:20:28 [JavaFX Application Thread] Client.ApplicationBasic (ApplicationBasic.java:29) - запуск приложения
+INFO  2021-03-10 00:20:41 [JavaFX Application Thread] Client.Client (Client.java:29) - start stream socket, input and output
+INFO  2021-03-10 00:20:41 [JavaFX Application Thread] Client.ControllerRegistration (ControllerRegistration.java:42) - Авторизация прошла успешно
+INFO  2021-03-10 00:20:41 [JavaFX Application Thread] Client.Client (Client.java:51) - start connect
+INFO  2021-03-10 00:24:54 [JavaFX Application Thread] Client.ApplicationBasic (ApplicationBasic.java:29) - запуск приложения
+INFO  2021-03-10 00:25:10 [JavaFX Application Thread] Client.Client (Client.java:29) - start stream socket, input and output
+INFO  2021-03-10 00:25:10 [JavaFX Application Thread] Client.ControllerRegistration (ControllerRegistration.java:42) - Авторизация прошла успешно
+INFO  2021-03-10 00:25:10 [JavaFX Application Thread] Client.Client (Client.java:51) - start connect
+INFO  2021-03-10 00:29:36 [JavaFX Application Thread] Client.ControllerBasic (ControllerBasic.java:116) - exit program!
+INFO  2021-03-10 00:30:55 [JavaFX Application Thread] Client.ApplicationBasic (ApplicationBasic.java:29) - запуск приложения
+INFO  2021-03-10 00:31:05 [JavaFX Application Thread] Client.Client (Client.java:29) - start stream socket, input and output
+INFO  2021-03-10 00:31:05 [JavaFX Application Thread] Client.ControllerRegistration (ControllerRegistration.java:42) - Авторизация прошла успешно
+INFO  2021-03-10 00:31:05 [JavaFX Application Thread] Client.Client (Client.java:51) - start connect
+INFO  2021-03-10 00:38:40 [JavaFX Application Thread] Client.ApplicationBasic (ApplicationBasic.java:29) - запуск приложения
+INFO  2021-03-10 00:38:49 [JavaFX Application Thread] Client.Client (Client.java:29) - start stream socket, input and output
+INFO  2021-03-10 00:38:50 [JavaFX Application Thread] Client.ControllerRegistration (ControllerRegistration.java:42) - Авторизация прошла успешно
+INFO  2021-03-10 00:38:50 [JavaFX Application Thread] Client.Client (Client.java:51) - start connect
+INFO  2021-03-10 00:39:18 [JavaFX Application Thread] Client.ControllerBasic (ControllerBasic.java:116) - exit program!
+INFO  2021-03-10 00:40:45 [JavaFX Application Thread] Client.ApplicationBasic (ApplicationBasic.java:29) - запуск приложения
+INFO  2021-03-10 00:40:55 [JavaFX Application Thread] Client.Client (Client.java:29) - start stream socket, input and output
+INFO  2021-03-10 00:40:56 [JavaFX Application Thread] Client.ControllerRegistration (ControllerRegistration.java:42) - Авторизация прошла успешно
+INFO  2021-03-10 00:40:56 [JavaFX Application Thread] Client.Client (Client.java:51) - start connect
+INFO  2021-03-10 00:41:20 [JavaFX Application Thread] Client.ControllerBasic (ControllerBasic.java:116) - exit program!
+INFO  2021-03-10 00:42:13 [JavaFX Application Thread] Client.ApplicationBasic (ApplicationBasic.java:29) - запуск приложения
+INFO  2021-03-10 00:42:25 [JavaFX Application Thread] Client.Client (Client.java:29) - start stream socket, input and output
+INFO  2021-03-10 00:42:25 [JavaFX Application Thread] Client.ControllerRegistration (ControllerRegistration.java:42) - Авторизация прошла успешно
+INFO  2021-03-10 00:42:25 [JavaFX Application Thread] Client.Client (Client.java:51) - start connect
+INFO  2021-03-10 00:42:56 [JavaFX Application Thread] Client.ControllerBasic (ControllerBasic.java:116) - exit program!
+INFO  2021-03-10 00:50:09 [JavaFX Application Thread] Client.ApplicationBasic (ApplicationBasic.java:29) - запуск приложения
+INFO  2021-03-10 00:50:20 [JavaFX Application Thread] Client.Client (Client.java:29) - start stream socket, input and output
+INFO  2021-03-10 00:50:20 [JavaFX Application Thread] Client.ControllerRegistration (ControllerRegistration.java:42) - Авторизация прошла успешно
+INFO  2021-03-10 00:50:20 [JavaFX Application Thread] Client.Client (Client.java:51) - start connect
+INFO  2021-03-10 00:54:09 [JavaFX Application Thread] Client.ApplicationBasic (ApplicationBasic.java:29) - запуск приложения
+INFO  2021-03-10 00:54:23 [JavaFX Application Thread] Client.Client (Client.java:29) - start stream socket, input and output
+INFO  2021-03-10 00:54:23 [JavaFX Application Thread] Client.ControllerRegistration (ControllerRegistration.java:42) - Авторизация прошла успешно
+INFO  2021-03-10 00:54:23 [JavaFX Application Thread] Client.Client (Client.java:51) - start connect
+INFO  2021-03-10 12:11:38 [JavaFX Application Thread] Client.ApplicationBasic (ApplicationBasic.java:29) - запуск приложения
+INFO  2021-03-10 12:11:53 [JavaFX Application Thread] Client.Client (Client.java:29) - start stream socket, input and output
+INFO  2021-03-10 12:11:54 [JavaFX Application Thread] Client.ControllerRegistration (ControllerRegistration.java:42) - Авторизация прошла успешно
+INFO  2021-03-10 12:11:54 [JavaFX Application Thread] Client.Client (Client.java:51) - start connect
+INFO  2021-03-10 12:13:16 [JavaFX Application Thread] Client.ApplicationBasic (ApplicationBasic.java:29) - запуск приложения
+INFO  2021-03-10 12:13:25 [JavaFX Application Thread] Client.Client (Client.java:29) - start stream socket, input and output
+INFO  2021-03-10 12:13:25 [JavaFX Application Thread] Client.ControllerRegistration (ControllerRegistration.java:42) - Авторизация прошла успешно
+INFO  2021-03-10 12:13:25 [JavaFX Application Thread] Client.Client (Client.java:51) - start connect
+INFO  2021-03-10 12:14:25 [JavaFX Application Thread] Client.ApplicationBasic (ApplicationBasic.java:29) - запуск приложения
+INFO  2021-03-10 12:14:36 [JavaFX Application Thread] Client.Client (Client.java:29) - start stream socket, input and output
+INFO  2021-03-10 12:14:37 [JavaFX Application Thread] Client.ControllerRegistration (ControllerRegistration.java:42) - Авторизация прошла успешно
+INFO  2021-03-10 12:14:37 [JavaFX Application Thread] Client.Client (Client.java:51) - start connect
+INFO  2021-03-10 12:14:54 [JavaFX Application Thread] Client.ControllerBasic (ControllerBasic.java:116) - exit program!
+INFO  2021-03-10 12:15:30 [JavaFX Application Thread] Client.ApplicationBasic (ApplicationBasic.java:29) - запуск приложения
+INFO  2021-03-10 12:15:39 [JavaFX Application Thread] Client.Client (Client.java:29) - start stream socket, input and output
+INFO  2021-03-10 12:15:39 [JavaFX Application Thread] Client.ControllerRegistration (ControllerRegistration.java:42) - Авторизация прошла успешно
+INFO  2021-03-10 12:15:39 [JavaFX Application Thread] Client.Client (Client.java:51) - start connect
+INFO  2021-03-10 12:34:25 [JavaFX Application Thread] Client.ApplicationBasic (ApplicationBasic.java:29) - запуск приложения
+INFO  2021-03-10 12:34:42 [JavaFX Application Thread] Client.Client (Client.java:29) - start stream socket, input and output
+INFO  2021-03-10 12:34:42 [JavaFX Application Thread] Client.ControllerRegistration (ControllerRegistration.java:42) - Авторизация прошла успешно
+INFO  2021-03-10 12:34:42 [JavaFX Application Thread] Client.Client (Client.java:51) - start connect
+INFO  2021-03-10 12:35:55 [JavaFX Application Thread] Client.ControllerBasic (ControllerBasic.java:268) - file ServerSaveFiles\ServerClientDirectory\newFile\bass_alac.dll download on client
+INFO  2021-03-10 12:36:21 [JavaFX Application Thread] Client.ControllerBasic (ControllerBasic.java:205) - file ОПИСАНИЕ.TXT is send to server
+INFO  2021-03-10 12:36:30 [JavaFX Application Thread] Client.ControllerBasic (ControllerBasic.java:274) - file ServerSaveFiles\ServerClientDirectory\newFile\music\ОПИСАНИЕ.TXT delete on client
+INFO  2021-03-10 12:36:50 [JavaFX Application Thread] Client.ControllerBasic (ControllerBasic.java:228) - file hbhfbvhfbhvbh is delete
+INFO  2021-03-10 12:39:51 [JavaFX Application Thread] Client.ControllerBasic (ControllerBasic.java:116) - exit program!
+INFO  2021-03-10 12:40:06 [JavaFX Application Thread] Client.ApplicationBasic (ApplicationBasic.java:29) - запуск приложения
+INFO  2021-03-10 12:40:16 [JavaFX Application Thread] Client.Client (Client.java:29) - start stream socket, input and output
+INFO  2021-03-10 12:40:16 [JavaFX Application Thread] Client.ControllerRegistration (ControllerRegistration.java:42) - Авторизация прошла успешно
+INFO  2021-03-10 12:40:16 [JavaFX Application Thread] Client.Client (Client.java:51) - start connect
+INFO  2021-03-10 12:40:33 [JavaFX Application Thread] Client.ControllerBasic (ControllerBasic.java:228) - file LinuxUbuntu is delete
+INFO  2021-03-10 13:01:51 [JavaFX Application Thread] Client.ApplicationBasic (ApplicationBasic.java:29) - запуск приложения
+INFO  2021-03-10 13:02:00 [JavaFX Application Thread] Client.Client (Client.java:29) - start stream socket, input and output
+INFO  2021-03-10 13:02:01 [JavaFX Application Thread] Client.ControllerRegistration (ControllerRegistration.java:42) - Авторизация прошла успешно
+INFO  2021-03-10 13:02:01 [JavaFX Application Thread] Client.Client (Client.java:51) - start connect
+INFO  2021-03-10 13:02:18 [JavaFX Application Thread] Client.ControllerBasic (ControllerBasic.java:260) - file ServerSaveFiles\ServerClientDirectory\newFile\ОПИСАНИЕ.TXT rename to server
+INFO  2021-03-10 13:02:43 [JavaFX Application Thread] Client.ControllerBasic (ControllerBasic.java:260) - file ServerSaveFiles\ServerClientDirectory\newFile\others rename to server
+INFO  2021-03-10 13:03:03 [JavaFX Application Thread] Client.ControllerBasic (ControllerBasic.java:280) - file ServerSaveFiles\ServerClientDirectory\newFile\music delete on client
+INFO  2021-03-10 13:03:25 [JavaFX Application Thread] Client.ApplicationBasic (ApplicationBasic.java:29) - запуск приложения
+INFO  2021-03-10 13:03:38 [JavaFX Application Thread] Client.Client (Client.java:29) - start stream socket, input and output
+INFO  2021-03-10 13:03:38 [JavaFX Application Thread] Client.ControllerRegistration (ControllerRegistration.java:52) - Клиент не авторизовался
+INFO  2021-03-10 13:03:47 [JavaFX Application Thread] Client.ControllerRegistration (ControllerRegistration.java:52) - Клиент не авторизовался
+INFO  2021-03-10 13:04:01 [JavaFX Application Thread] Client.ControllerRegistration (ControllerRegistration.java:42) - Авторизация прошла успешно
+INFO  2021-03-10 13:04:01 [JavaFX Application Thread] Client.Client (Client.java:51) - start connect
+INFO  2021-03-10 13:05:22 [JavaFX Application Thread] Client.ControllerBasic (ControllerBasic.java:117) - exit program!
+INFO  2021-03-10 13:05:26 [JavaFX Application Thread] Client.ControllerBasic (ControllerBasic.java:117) - exit program!

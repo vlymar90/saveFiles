@@ -1,10 +1,10 @@
 Message\DownloadMessage.class
+Message\Message.class
+Message\ListServer.class
+Message\SendMessage.class
 Message\RenameMessage.class
 Message\AuthMessage.class
-Message\Message.class
 Message\ClickMessage.class
 Message\BackMessage.class
-Message\ListServer.class
 Message\RegMessage.class
 Message\DeleteMessage.class
-Message\SendMessage.class

@@ -1,6 +1,8 @@
 package Client;
 
+import Friend.*;
 import Message.*;
+import javafx.application.Platform;
 import javafx.event.ActionEvent;
 import javafx.fxml.Initializable;
 import javafx.collections.FXCollections;
@@ -22,9 +24,12 @@ import java.io.FileInputStream;
 import java.io.IOException;
 import java.io.InputStream;
 import java.net.URL;
+import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.util.*;
+import java.util.stream.Collectors;
+
 import static javafx.scene.input.KeyCode.R;
 
 public class ControllerBasic implements Initializable {
@@ -35,6 +40,14 @@ public class ControllerBasic implements Initializable {
     private byte[] buffer = new byte[SIZE_BUFFER];
     public static final Logger LOGGER = LogManager.getLogger(ControllerRegistration.class);
 
+    @FXML
+    public ListView <String>listFileFriend;
+    @FXML
+    public ContextMenu dialogFileClient;
+    @FXML
+    public ListView<String> listFriend;
+    @FXML
+    public ListView<String> clientListonServer;
     @FXML
     public ContextMenu dialogServer;
     @FXML
@@ -138,12 +151,10 @@ public class ControllerBasic implements Initializable {
     public void actionKeyClient(KeyEvent keyEvent) throws IOException {
         if (keyEvent.getCode() == R) {
             rename(new ActionEvent());
-        }
-       else if (keyEvent.getCode() == KeyCode.S) {
+        } else if (keyEvent.getCode() == KeyCode.S) {
             send(new ActionEvent());
-        }
-       else if (keyEvent.getCode() == KeyCode.D) {
-         delete(new ActionEvent());
+        } else if (keyEvent.getCode() == KeyCode.D) {
+            delete(new ActionEvent());
         }
     }
 
@@ -164,54 +175,66 @@ public class ControllerBasic implements Initializable {
     public void rename(ActionEvent actionEvent) {
         String cell = clientList.getFocusModel().getFocusedItem();
         Path oldPath = getPath(cell, clientField);
-        LOGGER.info("file " + oldPath.toString() + " is rename!");
-        Stage rename = new Stage();
-        rename.setX(dialogClient.getX());
-        rename.setY(dialogClient.getY());
-        Label label = new Label("Введите новое имя файла");
-        TextField textField = new TextField();
-        Button button = new Button("Сменить");
-        VBox box = new VBox();
-        box.setSpacing(20);
-        box.getChildren().addAll(label, textField, button);
-        button.setOnAction(event -> {
-            if (textField.getText() != null) {
-                File file = new File(oldPath.toString());
-                file.renameTo(new File(directory + "/" + textField.getText()));
-                rename.close();
-                Back();
-            }
-        });
-        Scene scene = new Scene(box, 200, 150);
-        rename.initModality(Modality.WINDOW_MODAL);
-        rename.setScene(scene);
-        rename.setResizable(false);
-        rename.show();
+        File file = new File(oldPath.toString());
+        if (file.isFile()) {
+            LOGGER.info("file " + oldPath.toString() + " is rename!");
+            Stage rename = new Stage();
+            rename.setX(dialogClient.getX());
+            rename.setY(dialogClient.getY());
+            Label label = new Label("Введите новое имя файла");
+            TextField textField = new TextField();
+            Button button = new Button("Сменить");
+            VBox box = new VBox();
+            box.setSpacing(20);
+            box.getChildren().addAll(label, textField, button);
+            button.setOnAction(event -> {
+                if (textField.getText() != null) {
+                    file.renameTo(new File(directory + "/" + textField.getText()));
+                    rename.close();
+                    Back();
+                }
+            });
+            Scene scene = new Scene(box, 200, 150);
+            rename.initModality(Modality.WINDOW_MODAL);
+            rename.setScene(scene);
+            rename.setResizable(false);
+            rename.show();
+        }
     }
 
     public void send(ActionEvent actionEvent) {
         String sendFile = clientList.getFocusModel().getFocusedItem();
         File file = new File(getPath(sendFile, clientField).toString());
-        LOGGER.info("file " + file.getName() + " is send to server");
-        int count = (int) (file.length() - 1) / (SIZE_BUFFER + 1);
-        try (InputStream in = new FileInputStream(file)) {
-            for (int i = 0; i < count; i++) {
-                in.read(buffer);
-                client.write(new SendMessage(buffer, file.getName()));
-            }
+        if (file.isFile()) {
+            LOGGER.info("file " + file.getName() + " is send to server");
+            int count = (int) (file.length() - 1) / SIZE_BUFFER + 1;
+            try (InputStream in = new FileInputStream(file)) {
+                for (int i = 0; i < count; i++) {
+                    int read = in.read(buffer);
+                    if (read < SIZE_BUFFER) {
+                        byte[] tmp = new byte[read];
+                        System.arraycopy(buffer, 0, tmp, 0, read);
+                        client.write(new SendMessage(tmp, file.getName()));
+                    } else {
+                        client.write(new SendMessage(buffer, file.getName()));
+                    }
+                }
 
-        } catch (IOException e) {
-            e.printStackTrace();
+
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
         }
     }
-
-    public void delete(ActionEvent actionEvent)  {
+    public void delete(ActionEvent actionEvent) {
         String cell = clientList.getFocusModel().getFocusedItem();
         File file = new File(getPath(cell, clientField).toString());
-        LOGGER.info("file " + file.getName() + " is delete");
-        file.delete();
-        setDirectory(directory.getParentFile());
-        showFile(directory);
+        if(file.isFile()) {
+            LOGGER.info("file " + file.getName() + " is delete");
+            file.delete();
+            setDirectory(directory.getParentFile());
+            showFile(directory);
+        }
     }
 
     private Path getPath(String cell, TextField textField) {
@@ -222,28 +245,28 @@ public class ControllerBasic implements Initializable {
 
     public void renameServer(ActionEvent actionEvent) {
         String oldFile = serverList.getFocusModel().getFocusedItem();
-        Stage rename = new Stage();
-        rename.setX(dialogServer.getX());
-        rename.setY(dialogServer.getY());
-        Label label = new Label("Введите новое имя файла");
-        TextField textField = new TextField();
-        Button button = new Button("Сменить");
-        VBox box = new VBox();
-        box.setSpacing(20);
-        box.getChildren().addAll(label, textField, button);
-        button.setOnAction(event -> {
-            if (textField.getText() != null) {
-                client.write(new RenameMessage(getPath(oldFile, severField).toString(), textField.getText()));
-                LOGGER.info("file " + getPath(oldFile, severField).toString() + " rename to server");
-                rename.close();
-            }
-        });
-        Scene scene = new Scene(box, 200, 150);
-        rename.initModality(Modality.WINDOW_MODAL);
-        rename.setScene(scene);
-        rename.setResizable(false);
-        rename.show();
-    }
+            Stage rename = new Stage();
+            rename.setX(dialogServer.getX());
+            rename.setY(dialogServer.getY());
+            Label label = new Label("Введите новое имя файла");
+            TextField textField = new TextField();
+            Button button = new Button("Сменить");
+            VBox box = new VBox();
+            box.setSpacing(20);
+            box.getChildren().addAll(label, textField, button);
+            button.setOnAction(event -> {
+                if (textField.getText() != null) {
+                    client.write(new RenameMessage(getPath(oldFile, severField).toString(), textField.getText()));
+                    LOGGER.info("file " + getPath(oldFile, severField).toString() + " rename to server");
+                    rename.close();
+                }
+            });
+            Scene scene = new Scene(box, 200, 150);
+            rename.initModality(Modality.WINDOW_MODAL);
+            rename.setScene(scene);
+            rename.setResizable(false);
+            rename.show();
+        }
 
     public void downloadServer(ActionEvent actionEvent) {
         String downloadFile = serverList.getFocusModel().getFocusedItem();
@@ -256,6 +279,61 @@ public class ControllerBasic implements Initializable {
         client.write(new DeleteMessage(getPath(deleteFile, severField).toString()));
         LOGGER.info("file " + getPath(deleteFile, severField).toString() + " delete on client");
     }
-}
 
+    public void addFriend(ActionEvent actionEvent) {
+        String friend = clientListonServer.getFocusModel().getFocusedItem();
+        if(!client.getNick().equals(friend)) {
+            client.write(new FriendAddMessage(client.getNick(), friend));
+        }
+    }
+
+    public void getAlert(String nickFriend, String nick) {
+        Alert alert = new Alert(Alert.AlertType.CONFIRMATION);
+        alert.setX(ApplicationBasic.client.getX() + 150);
+        alert.setY(ApplicationBasic.client.getY() + 200);
+        alert.setTitle("Friend");
+        alert.setContentText(nick + " хочет добавить вас в друзья!");
+        Optional<ButtonType> result = alert.showAndWait();
+        ButtonType button = result.orElse(ButtonType.CANCEL);
+        if (button == ButtonType.OK) {
+            Platform.runLater(() -> listFriend.getItems().add(nick));
+            client.write(new FriendConsent(true, client.getNick(), nick));
+        } else {
+            client.write(new FriendConsent(false, client.getNick(), nick));
+        }
+    }
+
+    public void noFriend(String nickFriend) {
+        Alert alert = new Alert(Alert.AlertType.INFORMATION);
+        alert.setX(ApplicationBasic.client.getX() + 150);
+        alert.setY(ApplicationBasic.client.getY() + 200);
+        alert.setTitle("Friend");
+        alert.setContentText(nickFriend + " отклонил вашу заявку в друзья!");
+        alert.showAndWait();
+    }
+
+    public void ClickFriend(MouseEvent mouseEvent) {
+        if(mouseEvent.getButton() == MouseButton.SECONDARY) {
+            String nickFriend = listFriend.getFocusModel().getFocusedItem();
+            client.write(new ShowDirFriend(nickFriend));
+            dialogFileClient.show(new VBox(), mouseEvent.getScreenX(), mouseEvent.getScreenY());
+        }
+    }
+
+    public void downloadFriendFile(ActionEvent actionEvent) {
+        String fileNameFriend = listFileFriend.getFocusModel().getFocusedItem();
+        String nickFriend = listFriend.getFocusModel().getFocusedItem();
+        String[] token = fileNameFriend.split("->");
+        client.write(new DownloadFileFriendInfo(token[0].trim(), nickFriend));
+    }
+
+    public void NavigationListFriend(MouseEvent mouseEvent) {
+       if(mouseEvent.getClickCount() == 2 && mouseEvent.getButton() == MouseButton.PRIMARY) {
+           String dirFileName = listFileFriend.getFocusModel().getFocusedItem();
+           String nickFriend = listFriend.getFocusModel().getFocusedItem();
+           String file = Arrays.stream(dirFileName.split("->")).findFirst().get();
+           client.write(new ClickFriend(file.trim(), nickFriend));
+       }
+    }
+}
 

@@ -14,9 +14,12 @@ import io.netty.handler.codec.serialization.ObjectEncoder;
 import io.netty.handler.codec.string.StringDecoder;
 import io.netty.handler.codec.string.StringEncoder;
 
-public class Server {
+import java.util.Vector;
 
+public class Server {
+    private Vector<HandlerClient> listClient;
     public Server() {
+        listClient = new Vector<>();
         EventLoopGroup boss = new NioEventLoopGroup(1);
         EventLoopGroup worked = new NioEventLoopGroup();
         try {
@@ -26,7 +29,7 @@ public class Server {
                         @Override
                         protected void initChannel(SocketChannel socketChannel) throws Exception {
                             socketChannel.pipeline().addLast(new ObjectEncoder(), new ObjectDecoder(ClassResolvers.cacheDisabled(null))
-                                    ,new HandlerSerializable());
+                                    ,new HandlerSerializable(Server.this));
                         }
                     });
             ChannelFuture future = b.bind(9500);
@@ -36,5 +39,9 @@ public class Server {
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
+    }
+
+    public Vector<HandlerClient> getListClient() {
+        return listClient;
     }
 }
